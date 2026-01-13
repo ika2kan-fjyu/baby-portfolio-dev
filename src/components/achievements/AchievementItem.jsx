@@ -25,8 +25,8 @@ export function AchievementItem({ title, date, isUnlocked, icon }) {
             {isUnlocked ? (
                 <span className="text-[10px] text-amber-500 font-bold mt-1">{date}</span>
             ) : (
-                <div className="absolute inset-0 flex items-center justify-center">
-                    <Lock className="text-slate-300 opacity-50" size={32} />
+                <div className="absolute top-2 left-2">
+                    <Lock className="text-slate-300 opacity-50" size={24} />
                 </div>
             )}
 
