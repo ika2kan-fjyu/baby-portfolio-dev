@@ -5,7 +5,7 @@ export function TimelineContainer({ children }) {
     return (
         <div className="px-6 py-8 min-h-screen bg-bg-base">
             <div className="flex items-center gap-2 mb-8 pl-2">
-                <div className="bg-white p-2 rounded-full shadow-sm text-pink-400">
+                <div className="bg-pink-100 p-2 rounded-full shadow-sm text-pink-400">
                     <Sparkles size={24} />
                 </div>
                 <div>
