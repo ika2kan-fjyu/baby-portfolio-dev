@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArtFrame } from './ArtFrame';
 import { AgeFilter } from './AgeFilter';
-import { worksData } from '../../data/data';
+import { worksData } from '../../data/mockData';
 import { Palette } from 'lucide-react';
 
 export function WorksPage() {
@@ -21,7 +21,7 @@ export function WorksPage() {
                 </div>
             </div>
 
-            <AgeFilter activeAge={activeAge} onSelect={setActiveAge} />
+            <AgeFilter activeAge={activeAge} onSelect={setActiveAge} color="purple" />
 
             <div className="mt-6">
                 {filteredWorks.map(work => (

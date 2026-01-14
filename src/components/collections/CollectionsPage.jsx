@@ -1,6 +1,6 @@
 import React from 'react';
 import { PhotoItem } from './PhotoItem';
-import { collectionsData } from '../../data/data';
+import { collectionsData } from '../../data/mockData';
 import { Image as ImageIcon } from 'lucide-react';
 
 export function CollectionsPage() {

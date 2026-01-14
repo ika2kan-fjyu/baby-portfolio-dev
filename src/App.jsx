@@ -4,7 +4,7 @@ import { MobileLayout } from './layouts/MobileLayout';
 import { ProfileHero } from './components/profile/ProfileHero';
 import { StatsCard } from './components/profile/StatsCard';
 import { IdentityCard } from './components/profile/IdentityCard';
-import { profileData } from './data/data';
+import { profileData } from './data/mockData';
 import profileImage from './assets/profileImage.jpg';
 
 const Profile = () => {
@@ -61,17 +61,7 @@ const Profile = () => {
   );
 };
 
-import { MemoryCard } from './components/memories/MemoryCard';
-import { TimelineContainer } from './components/memories/TimelineContainer';
-import { memoriesData } from './data/data';
-
-const Memories = () => (
-  <TimelineContainer>
-    {memoriesData.map(memo => (
-      <MemoryCard key={memo.id} {...memo} />
-    ))}
-  </TimelineContainer>
-);
+import { MemoriesPage } from './components/memories/MemoriesPage';
 
 import { AchievementsPage } from './components/achievements/AchievementsPage';
 
@@ -91,7 +81,7 @@ function App() {
       <MobileLayout>
         <Routes>
           <Route path="/" element={<Profile />} />
-          <Route path="/memories" element={<Memories />} />
+          <Route path="/memories" element={<MemoriesPage />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/collections" element={<Collections />} />
           <Route path="/works" element={<Works />} />

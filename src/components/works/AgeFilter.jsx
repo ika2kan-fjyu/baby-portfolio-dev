@@ -1,7 +1,7 @@
 import React from 'react';
 import { cn } from '../../lib/utils';
 
-export function AgeFilter({ activeAge, onSelect }) {
+export function AgeFilter({ activeAge, onSelect, color = 'purple' }) {
     const ages = [0, 1, 2, 3];
 
     return (
@@ -13,7 +13,9 @@ export function AgeFilter({ activeAge, onSelect }) {
                     className={cn(
                         "px-5 py-2 rounded-full whitespace-nowrap transition-colors text-sm font-bold border",
                         activeAge === age
-                            ? "bg-theme-lavender border-theme-lavender text-violet-700"
+                            ? color === 'pink'
+                                ? "bg-theme-pink border-theme-pink text-pink-600"
+                                : "bg-theme-lavender border-theme-lavender text-violet-700"
                             : "bg-white border-slate-200 text-slate-400"
                     )}
                 >

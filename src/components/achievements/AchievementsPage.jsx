@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CategoryTabs } from './CategoryTabs';
 import { AchievementItem } from './AchievementItem';
-import { achievementsData } from '../../data/data';
+import { achievementsData } from '../../data/mockData';
 import { Trophy } from 'lucide-react';
 
 export function AchievementsPage() {
