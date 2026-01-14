@@ -11,7 +11,7 @@ export function WorksPage() {
 
     return (
         <div className="px-6 py-8 pb-24 min-h-screen bg-bg-base">
-            <div className="flex items-center gap-3 mb-8">
+            <div className="flex items-center gap-2 mb-8 pl-2">
                 <div className="bg-violet-100 p-2 rounded-full text-violet-500">
                     <Palette size={24} />
                 </div>

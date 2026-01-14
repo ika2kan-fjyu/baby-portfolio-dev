@@ -21,7 +21,7 @@ export function CollectionsPage() {
 
     return (
         <div className="px-6 py-8 pb-24 min-h-screen bg-bg-base relative">
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center gap-2 mb-8 pl-2">
                 <div className="bg-emerald-100 p-2 rounded-full text-emerald-500">
                     <ImageIcon size={24} />
                 </div>

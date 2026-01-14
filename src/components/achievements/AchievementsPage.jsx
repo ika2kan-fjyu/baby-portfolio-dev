@@ -13,9 +13,9 @@ export function AchievementsPage() {
 
     return (
         <div className="px-6 py-8 pb-24 min-h-screen bg-bg-base">
-            <div className="flex items-center gap-3 mb-8">
+            <div className="flex items-center gap-2 mb-8 pl-2">
                 <div className="p-2 rounded-full bg-amber-100 text-amber-500">
-                    <Trophy size={32} />
+                    <Trophy size={24} />
                 </div>
                 <div>
                     <h1 className="text-2xl font-bold text-slate-700">Achievements</h1>
