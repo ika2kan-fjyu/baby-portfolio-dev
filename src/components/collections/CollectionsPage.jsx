@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { PhotoItem } from './PhotoItem';
-import { collectionsData } from '../../data/mockData';
+import { collectionsData } from '../../data/data';
 import { Image as ImageIcon, X } from 'lucide-react';
 
 export function CollectionsPage() {
@@ -27,7 +27,7 @@ export function CollectionsPage() {
                 </div>
                 <div>
                     <h1 className="text-2xl font-bold text-slate-700">Collections</h1>
-                    <p className="text-xs text-slate-400">赤ちゃんのお気に入りグッズ</p>
+                    <p className="text-xs text-slate-400">持っている財産一覧</p>
                 </div>
             </div>
 

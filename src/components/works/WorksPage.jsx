@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArtFrame } from './ArtFrame';
 import { AgeFilter } from './AgeFilter';
-import { worksData } from '../../data/mockData';
+import { worksData } from '../../data/data';
 import { Palette } from 'lucide-react';
 
 export function WorksPage() {
@@ -17,7 +17,7 @@ export function WorksPage() {
                 </div>
                 <div>
                     <h1 className="text-2xl font-bold text-slate-700">Works</h1>
-                    <p className="text-xs text-slate-400">小さな画伯の美術館</p>
+                    <p className="text-xs text-slate-400">作品一覧</p>
                 </div>
             </div>
 
