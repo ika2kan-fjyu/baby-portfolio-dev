@@ -490,10 +490,10 @@ export const collectionsData = [
     // { id: 0, src: "", title: "", tags: [""] },
 ];
 
-import work1 from '../assets/works/work1.png';
-import work2 from '../assets/works/work2.png';
-import work3 from '../assets/works/work3.png';
-import work4 from '../assets/works/work4.png';
+import work1 from '/works/work1.png';
+import work2 from '/works/work2.png';
+import work3 from '/works/work3.png';
+import work4 from '/works/work4.png';
 
 export const worksData = [
     { id: 1, src: work1, title: "初めての殴り書き", age: 0, date: "2024-12-10" },
