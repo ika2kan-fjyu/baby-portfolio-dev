@@ -44,7 +44,7 @@ export function CollectionsPage() {
                                 : "bg-white text-slate-500 hover:bg-slate-50"}
                         `}
                     >
-                        {tag === "All" ? "すべて" : tag}
+                        {tag === "All" ? "All" : tag}
                     </button>
                 ))}
             </div>

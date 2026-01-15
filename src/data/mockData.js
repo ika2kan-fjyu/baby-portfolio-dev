@@ -66,12 +66,12 @@ export const memoriesData = [
 ];
 
 export const collectionsData = [
-    { id: 1, src: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=300", title: "お気に入りの積み木", tags: ["toy"] },
-    { id: 2, src: "https://images.unsplash.com/photo-1543332143-4e8c27e3256f?q=80&w=300", title: "くまのぬいぐるみ", tags: ["toy", "plush"] },
-    { id: 3, src: "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?q=80&w=300", title: "はじめての絵本", tags: ["book"] },
-    { id: 4, src: "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?q=80&w=300", title: "音の出るおもちゃ", tags: ["toy", "music"] },
-    { id: 5, src: "https://images.unsplash.com/photo-1510154221590-ff63e90a136f?q=80&w=300", title: "動物図鑑", tags: ["book"] },
-    { id: 6, src: "https://images.unsplash.com/photo-1505693444086-7a1ebce51c46?q=80&w=300", title: "お出かけ用バギー", tags: ["gear"] },
+    { id: 1, src: "https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=300", title: "お気に入りの積み木", tags: ["おもちゃ"] },
+    { id: 2, src: "https://images.unsplash.com/photo-1543332143-4e8c27e3256f?q=80&w=300", title: "くまのぬいぐるみ", tags: ["おもちゃ", "ぬいぐるみ"] },
+    { id: 3, src: "https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?q=80&w=300", title: "はじめての絵本", tags: ["本"] },
+    { id: 4, src: "https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?q=80&w=300", title: "音の出るおもちゃ", tags: ["おもちゃ", "音楽"] },
+    { id: 5, src: "https://images.unsplash.com/photo-1510154221590-ff63e90a136f?q=80&w=300", title: "動物図鑑", tags: ["本"] },
+    { id: 6, src: "https://images.unsplash.com/photo-1505693444086-7a1ebce51c46?q=80&w=300", title: "お出かけ用バギー", tags: ["おもちゃ"] },
 ];
 
 export const worksData = [
