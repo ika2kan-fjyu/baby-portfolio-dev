@@ -26,3 +26,5 @@ dist-ssr
 # Data files
 src/data/data.js
 src/assets/memories/*
+src/assets/works/*
+src/assets/collections/*
