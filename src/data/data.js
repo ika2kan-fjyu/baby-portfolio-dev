@@ -189,7 +189,7 @@ export const memoriesData = [
         title: "初詣",
         description: "菅原神社に初詣に行ったよ",
         tags: ["初詣"],
-        image: "src/assets/memories/20260106.jpg"
+        image: "/memories/20260106.jpg"
     },
     {
         id: 2026010301,
@@ -197,7 +197,7 @@ export const memoriesData = [
         title: "4ヶ月記念日",
         description: "4ヶ月経ったよ",
         tags: ["記念日"],
-        image: "src/assets/memories/20260103.jpg"
+        image: "/memories/20260103.JPG"
     },
     {
         id: 2026010101,
@@ -205,7 +205,7 @@ export const memoriesData = [
         title: "初めてのお正月",
         description: "おじいちゃんおばあちゃんに会ってきたよ",
         tags: ["イベント", "お正月"],
-        image: "src/assets/memories/20260101.jpg"
+        image: "/memories/20260101.JPG"
     },
     {
         id: 2025122401,
@@ -213,7 +213,7 @@ export const memoriesData = [
         title: "初めてのクリスマス",
         description: "おもちゃをプレゼントでもらったよ",
         tags: ["イベント", "クリスマス"],
-        image: "src/assets/memories/20251224.jpg"
+        image: "/memories/20251224.JPG"
     },
     {
         id: 2025122101,
@@ -221,7 +221,7 @@ export const memoriesData = [
         title: "お食い初め",
         description: "おじいちゃんおばあちゃんとみんなでお食い初めをしたよ",
         tags: ["イベント", "お食い初め"],
-        image: "src/assets/memories/20251221.jpg"
+        image: "/memories/20251221.JPG"
     },
     {
         id: 2025121201,
@@ -229,7 +229,7 @@ export const memoriesData = [
         title: "100日記念日",
         description: "生まれてから100日経ったよ",
         tags: ["記念日"],
-        image: "src/assets/memories/20251212.jpg"
+        image: "/memories/20251212.JPG"
     },
     {
         id: 2025121101,
@@ -237,7 +237,7 @@ export const memoriesData = [
         title: "動物園デビュー",
         description: "ズーラシアに藤森家全員で行ってきたよ",
         tags: ["お出かけ", "動物園"],
-        image: "src/assets/memories/20251211.jpg"
+        image: "/memories/20251211.jpg"
     },
     {
         id: 2025120901,
@@ -245,7 +245,7 @@ export const memoriesData = [
         title: "結人くんとの戯れ",
         description: "結人くんと結人くんママが遊びにきてくれたよ",
         tags: ["いとこ"],
-        image: "src/assets/memories/20251209.jpg"
+        image: "/memories/20251209.jpg"
     },
     {
         id: 2025120301,
@@ -253,7 +253,7 @@ export const memoriesData = [
         title: "3ヶ月記念日",
         description: "3ヶ月経ったよ",
         tags: ["記念日"],
-        image: "src/assets/memories/20251203.jpg"
+        image: "/memories/20251203.JPG"
     },
     {
         id: 2025120201,
@@ -261,7 +261,7 @@ export const memoriesData = [
         title: "初めてのおもちゃ図書館",
         description: "三輪あいこう保育園に行っておもちゃで遊んだよ",
         tags: ["保育園"],
-        image: "src/assets/memories/20251202.jpg"
+        image: "/memories/20251202.jpg"
     },
     {
         id: 2025112701,
@@ -269,7 +269,7 @@ export const memoriesData = [
         title: "初めてのつるっこ",
         description: "つるっこに行って遊んできたよ",
         tags: ["お出かけ"],
-        image: "src/assets/memories/20251127.jpg"
+        image: "/memories/20251127.jpg"
     },
     {
         id: 2025112101,
@@ -293,7 +293,7 @@ export const memoriesData = [
         title: "澄乃ちゃんと対面",
         description: "遠藤家が遊びにきてくれたよ",
         tags: ["いとこ"],
-        image: "src/assets/memories/20251116.jpg"
+        image: "/memories/20251116.jpg"
     },
     {
         id: 2025111401,
@@ -301,7 +301,7 @@ export const memoriesData = [
         title: "初めての予防接種",
         description: "初めて注射を打ったよ",
         tags: ["予防接種"],
-        image: "src/assets/memories/20251114.jpg"
+        image: "/memories/20251114.jpg"
     },
     {
         id: 2025111201,
@@ -317,7 +317,7 @@ export const memoriesData = [
         title: "2ヶ月記念日",
         description: "2ヶ月経ったよ",
         tags: ["記念日"],
-        image: "src/assets/memories/20251103.jpg"
+        image: "/memories/20251103.JPG"
     },
     {
         id: 2025102201,
@@ -325,7 +325,7 @@ export const memoriesData = [
         title: "結人くんと対面",
         description: "藤森のおじいちゃんおばあちゃんのお家で対面したよ",
         tags: ["いとこ"],
-        image: "src/assets/memories/20251022.jpg"
+        image: "/memories/20251022.jpg"
     },
     {
         id: 2025101901,
@@ -333,7 +333,7 @@ export const memoriesData = [
         title: "初めての外食",
         description: "お母さんのお友達と会いに新百合ヶ丘のファミレスにきたよ",
         tags: ["外食"],
-        image: "src/assets/memories/20251019.jpg"
+        image: "/memories/20251019.jpg"
     },
     {
         id: 2025101801,
@@ -341,7 +341,7 @@ export const memoriesData = [
         title: "律ちゃんと対面",
         description: "いとこの律ちゃん家族がお家に来てくれたよ",
         tags: ["いとこ"],
-        image: "src/assets/memories/20251018.jpg"
+        image: "/memories/20251018.jpg"
     },
     {
         id: 2025101401,
@@ -349,7 +349,7 @@ export const memoriesData = [
         title: "初めての抱っこ紐散歩",
         description: "抱っこ紐に入って初めてお散歩をしたよ",
         tags: ["お散歩"],
-        image: "src/assets/memories/20251014.jpg"
+        image: "/memories/20251014.jpg"
     },
     {
         id: 2025101301,
@@ -357,7 +357,7 @@ export const memoriesData = [
         title: "お宮参り",
         description: "大国魂神社でお宮参りをしたよ",
         tags: ["お宮参り"],
-        image: "src/assets/memories/20251013.jpg"
+        image: "/memories/20251013.JPG"
     },
     {
         id: 2025101001,
@@ -373,7 +373,7 @@ export const memoriesData = [
         title: "1ヶ月記念日",
         description: "生まれてから1ヶ月が経ったよ",
         tags: ["記念日"],
-        image: "src/assets/memories/20251003.jpg"
+        image: "/memories/20251003.JPG"
     },
     {
         id: 2025092601,
@@ -389,7 +389,7 @@ export const memoriesData = [
         title: "おばあちゃんに抱っこ",
         description: "お家に堀川のおじいちゃんとおばあちゃんが来てくれたよ",
         tags: ["抱っこ", "祖父母"],
-        image: "src/assets/memories/20250914.jpg"
+        image: "/memories/20250914.jpg"
     },
     {
         id: 2025091301,
@@ -397,7 +397,7 @@ export const memoriesData = [
         title: "おじいちゃんに抱っこ",
         description: "お家に藤森のおじいちゃんとおばあちゃんが来て抱っこしてもらったよ",
         tags: ["抱っこ", "祖父母"],
-        image: "src/assets/memories/20250913.jpg"
+        image: "/memories/20250913.jpg"
     },
     {
         id: 2025091201,
@@ -405,7 +405,7 @@ export const memoriesData = [
         title: "退院",
         description: "退院して初めてのお家に帰宅！まろとの出会い",
         tags: ["退院", "まろ"],
-        image: "src/assets/memories/20250912.jpg"
+        image: "/memories/20250912.jpg"
     },
     {
         id: 2025091101,
@@ -413,7 +413,7 @@ export const memoriesData = [
         title: "沐浴の練習",
         description: "退院に向けてお父さんが沐浴を練習したよ",
         tags: ["入院", "沐浴"],
-        image: "src/assets/memories/20250911.jpg"
+        image: "/memories/20250911.JPG"
     },
     {
         id: 2025090901,
@@ -421,7 +421,7 @@ export const memoriesData = [
         title: "コットに移動",
         description: "保育器から出て抱っこできるようになったよ",
         tags: ["入院"],
-        image: "src/assets/memories/20250909.jpg"
+        image: "/memories/20250909.JPG"
     },
     {
         id: 2025090701,
@@ -429,7 +429,7 @@ export const memoriesData = [
         title: "お母さんが面会",
         description: "お母さんが退院して初めて面会にきたよ",
         tags: ["面会", "入院"],
-        image: "src/assets/memories/20250907.jpg"
+        image: "/memories/20250907.JPG"
     },
     {
         id: 2025090601,
@@ -437,7 +437,7 @@ export const memoriesData = [
         title: "ミルク飲み",
         description: "お父さんが初めてミルクをあげたよ",
         tags: ["ミルク", "入院"],
-        image: "src/assets/memories/20250906.jpg"
+        image: "/memories/20250906.JPG"
     },
     {
         id: 2025090501,
@@ -445,7 +445,7 @@ export const memoriesData = [
         title: "初めての入院",
         description: "新生児用救急車で1人小児医療センターへ搬送。",
         tags: ["入院"],
-        image: "src/assets/memories/20250905.jpg"
+        image: "/memories/20250905.JPG"
     },
     {
         id: 2025090401,
@@ -453,7 +453,7 @@ export const memoriesData = [
         title: "おじいちゃんおばあちゃんと面会",
         description: "藤森の祖父母が面会にきたよ",
         tags: ["面会"],
-        image: "src/assets/memories/20250904.jpg"
+        image: "/memories/20250904.jpg"
     },
     {
         id: 2025090301,
@@ -461,7 +461,7 @@ export const memoriesData = [
         title: "誕生",
         description: "午後0時01分に出産！",
         tags: ["誕生日"],
-        image: "src/assets/memories/20250903.jpg"
+        image: "/memories/20250903.jpg"
     }
     // ,{
     //     id: 0,
