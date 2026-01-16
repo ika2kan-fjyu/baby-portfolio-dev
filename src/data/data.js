@@ -184,6 +184,14 @@ export const achievementsData = [
 
 export const memoriesData = [
     {
+        id: 2026011501,
+        date: "2026-01-15",
+        title: "Mサイズに交換",
+        description: "哺乳瓶の乳首のサイズをMサイズに交換したよ",
+        tags: ["授乳"],
+        image: ""
+    },
+    {
         id: 2026010601,
         date: "2026-01-06",
         title: "初詣",
