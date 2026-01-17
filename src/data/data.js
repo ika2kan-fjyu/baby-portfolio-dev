@@ -184,12 +184,28 @@ export const achievementsData = [
 
 export const memoriesData = [
     {
+        id: 2026011601,
+        date: "2026-01-16",
+        title: "3回目の予防接種",
+        description: "ロタ・肺炎球菌・五種混合の3回目",
+        tags: ["予防接種"],
+        image: "/memories/20260116.jpg"
+    },
+    {
         id: 2026011501,
         date: "2026-01-15",
         title: "Mサイズに交換",
         description: "哺乳瓶の乳首のサイズをMサイズに交換したよ",
         tags: ["授乳"],
         image: ""
+    },
+    {
+        id: 2026011401,
+        date: "2026-01-14",
+        title: "町田商店デビュー",
+        description: "初めて町田商店に行ったよ",
+        tags: ["お出かけ", "ラーメン"],
+        image: "/memories/20260114.jpg"
     },
     {
         id: 2026010601,
@@ -230,6 +246,14 @@ export const memoriesData = [
         description: "おじいちゃんおばあちゃんとみんなでお食い初めをしたよ",
         tags: ["イベント", "お食い初め"],
         image: "/memories/20251221.jpeg"
+    },
+    {
+        id: 2025121202,
+        date: "2025-12-12",
+        title: "2回目の予防接種",
+        description: "ロタ・肺炎球菌・五種混合・B型肝炎の2回目",
+        tags: ["予防接種"],
+        image: ""
     },
     {
         id: 2025121201,
@@ -482,17 +506,17 @@ export const memoriesData = [
 ];
 
 export const collectionsData = [
-    { id: 1, src: "https://www.toyroyal.co.jp/wp-content/uploads/2021/06/3187_01.jpeg", title: "コロコロアレー", tags: ["おもちゃ"] },
-    { id: 2, src: "https://www.doshinsha.co.jp/nakami_imgs/9784494001019_0.jpeg", title: "いないいないばあ", tags: ["絵本"] },
-    { id: 3, src: "https://shop.r10s.jp/quatresaisons-online/cabinet/0208/020802/g2303758-01.jpeg", title: "ベビーボール", tags: ["おもちゃ"] },
-    { id: 4, src: "https://www.toyroyal.co.jp/wp-content/uploads/2024/03/6078_01.jpeg", title: "モンポケ 7ステップメリージム", tags: ["おもちゃ"] },
-    { id: 5, src: "https://www.doshinsha.co.jp/nakami_imgs/9784494001361_0.jpeg", title: "どんどこももんちゃん", tags: ["絵本"] },
-    { id: 6, src: "https://static.wixstatic.com/media/2de446_0186ed0fd2254bf99a6ed40322004c6d~mv2.jpeg/v1/fill/w_1000,h_1334,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2de446_0186ed0fd2254bf99a6ed40322004c6d~mv2.jpeg", title: "コロン(COCO WALK)", tags: ["おもちゃ"] },
-    { id: 7, src: "https://www.watashinoheya.co.jp/resource/wh_item/g1303436-01.jpeg", title: "ガラガラツインズ(エレーヌオーガニック)", tags: ["おもちゃ"] },
-    { id: 8, src: "https://familiar.co.jp/cdn/shop/products/180870_14.jpeg?v=1678770495&width=1800", title: "ラトル(familiar)", tags: ["おもちゃ"] },
-    { id: 9, src: "https://image1.shopserve.jp/kurabokko.net/pic-labo/edointer-kororin_kumasan-7.jpeg", title: "ころりんくまさん(エドインター)", tags: ["おもちゃ"] },
-    { id: 10, src: "https://image1.shopserve.jp/kurabokko.net/pic-labo/edointer-wonderLand-21.jpeg", title: "ワンダーランド(エドインター)", tags: ["おもちゃ"] },
-    { id: 11, src: "https://hon.gakken.jp/img/books/352x452/1020311100.jpeg", title: "しましまぐるぐる", tags: ["絵本"] },
+    { id: 1, src: "https://www.toyroyal.co.jp/wp-content/uploads/2021/06/3187_01.jpg", title: "コロコロアレー", tags: ["おもちゃ"] },
+    { id: 2, src: "https://www.doshinsha.co.jp/nakami_imgs/9784494001019_0.jpg", title: "いないいないばあ", tags: ["絵本"] },
+    { id: 3, src: "https://ululu-shop.jp/cdn/shop/files/a8f91fcb5832acbca9318954f425ea9b.jpg?v=1725093800&width=1280", title: "ベビーボール", tags: ["おもちゃ"] },
+    { id: 4, src: "https://www.toyroyal.co.jp/wp-content/uploads/2024/03/6078_01.jpg", title: "モンポケ 7ステップメリージム", tags: ["おもちゃ"] },
+    { id: 5, src: "https://www.doshinsha.co.jp/nakami_imgs/9784494001361_0.jpg", title: "どんどこももんちゃん", tags: ["絵本"] },
+    { id: 6, src: "https://static.wixstatic.com/media/2de446_0186ed0fd2254bf99a6ed40322004c6d~mv2.jpg/v1/fill/w_1000,h_1334,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2de446_0186ed0fd2254bf99a6ed40322004c6d~mv2.jpg", title: "コロン(COCO WALK)", tags: ["おもちゃ"] },
+    { id: 7, src: "https://www.watashinoheya.co.jp/resource/wh_item/g1303436-01.jpg", title: "ガラガラツインズ(エレーヌオーガニック)", tags: ["おもちゃ"] },
+    { id: 8, src: "https://familiar.co.jp/cdn/shop/products/180870_14.jpg?v=1678770495&width=1800", title: "ラトル(familiar)", tags: ["おもちゃ"] },
+    { id: 9, src: "https://edinter.itembox.design/product/002/000000000229/000000000229-15-l.jpg?t=20251226124331", title: "ころりんくまさん(エドインター)", tags: ["おもちゃ"] },
+    { id: 10, src: "https://edinter.itembox.design/product/000/000000000070/000000000070-17-l.jpg?t=20251226124331", title: "ワンダーランド(エドインター)", tags: ["おもちゃ"] },
+    { id: 11, src: "https://gakken-ep.jp/extra/shimashimaguruguru/img/pct_abt01.png", title: "しましまぐるぐる", tags: ["絵本"] },
     { id: 12, src: "https://d21.co.jp/akachan-ehon/images/img_lineup_book_2.png", title: "もいもいボードブック", tags: ["絵本"] },
     // { id: 13, src: "https://www.24028-net.jp/client_info/N24028/itemimage/4571138752971/4571138752971-7.jpeg", title: "ベビーバウンサーエアES", tags: ["生活"] },
     // { id: 0, src: "", title: "", tags: [""] },
