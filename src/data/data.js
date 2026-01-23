@@ -53,6 +53,14 @@ export const achievementsData = [
         icon: "👣"
     },
     {
+        id: "first-support-standing",
+        category: "body",
+        title: "初めてつかまり立ちできた",
+        date: "",
+        isUnlocked: false,
+        icon: "👣"
+    },
+    {
         id: "first-standing",
         category: "body",
         title: "初めて立てた",
@@ -67,6 +75,22 @@ export const achievementsData = [
         date: "",
         isUnlocked: false,
         icon: "🗣️"
+    },
+    {
+        id: "milk-160ml",
+        category: "food",
+        title: "ミルクを一度に160ml飲んだ",
+        date: "2025-11-10",
+        isUnlocked: true,
+        icon: "🍼"
+    },
+    {
+        id: "milk-240ml",
+        category: "food",
+        title: "ミルクを一度に240ml飲んだ",
+        date: "",
+        isUnlocked: false,
+        icon: "🍼"
     },
     {
         id: "baby-okayu",
@@ -183,6 +207,22 @@ export const achievementsData = [
 ];
 
 export const memoriesData = [
+    {
+        id: 2026012101,
+        date: "2026-01-21",
+        title: "パンツタイプおむつデビュー",
+        description: "パンツタイプのメリーズファーストプレミアム(Mサイズ)を着たよ",
+        tags: ["おむつ"],
+        image: ""
+    },
+    {
+        id: 2026011701,
+        date: "2026-01-17",
+        title: "回転寿司デビュー",
+        description: "古淵のかっぱ寿司に行ってきたよ",
+        tags: ["お出かけ", "寿司"],
+        image: "/memories/20260117.jpg"
+    },
     {
         id: 2026011601,
         date: "2026-01-16",
