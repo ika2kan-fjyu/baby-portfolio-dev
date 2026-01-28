@@ -566,7 +566,13 @@ export const collectionsData = [
     { id: 10, src: "https://edinter.itembox.design/product/000/000000000070/000000000070-17-l.jpg?t=20251226124331", title: "ワンダーランド(エドインター)", tags: ["おもちゃ"] },
     { id: 11, src: "https://gakken-ep.jp/extra/shimashimaguruguru/img/pct_abt01.png", title: "しましまぐるぐる", tags: ["絵本"] },
     { id: 12, src: "https://d21.co.jp/akachan-ehon/images/img_lineup_book_2.png", title: "もいもいボードブック", tags: ["絵本"] },
-    // { id: 13, src: "https://www.24028-net.jp/client_info/N24028/itemimage/4571138752971/4571138752971-7.jpeg", title: "ベビーバウンサーエアES", tags: ["生活"] },
+    { id: 13, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_171812.jpg", title: "ここからおいしいよかんがするよ", tags: ["絵本"] },
+    { id: 14, src: "https://www.ehonnavi.net/img/cover/350/350_156620.jpg", title: "こちょこちょ", tags: ["絵本"] },
+    { id: 15, src: "https://www.ehonnavi.net/img/cover/350/350_156621.jpg", title: "ぎゅ", tags: ["絵本"] },
+    { id: 16, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_243241.jpg", title: "だるまさんが", tags: ["絵本"] },
+    { id: 17, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_243243.jpg", title: "だるまさんの", tags: ["絵本"] },
+    { id: 18, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_243242.jpg", title: "だるまさんと", tags: ["絵本"] },
+    { id: 18, src: "https://www.shogakukan.co.jp/thumbnail/books/09727065", title: "ミッケ！3 クリスマス", tags: ["絵本"] },
     // { id: 0, src: "", title: "", tags: [""] },
 ];
 
