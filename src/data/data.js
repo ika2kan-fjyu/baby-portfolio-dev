@@ -208,6 +208,14 @@ export const achievementsData = [
 
 export const memoriesData = [
     {
+        id: 2026012701,
+        date: "2026-01-27",
+        title: "鎌倉にお出かけ",
+        description: "鎌倉の大仏と鶴岡八幡宮を訪ねたよ",
+        tags: ["お出かけ"],
+        image: "/memories/20260127.jpeg"
+    },
+    {
         id: 2026012101,
         date: "2026-01-21",
         title: "パンツタイプおむつデビュー",
