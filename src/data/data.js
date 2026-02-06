@@ -1,12 +1,12 @@
 export const profileData = {
-    name: "周 (Amane)",
+    name: "周 (あまね/Amane)",
     birthDate: "2025-09-03",
     currentStats: {
         height: "61.0 cm",
         weight: "5.8 kg"
     },
     likes: ["しましまぐるぐる"],
-    dislikes: ["ブロッコリー", "着替え"],
+    dislikes: ["ペットボトルを潰す音"],
     personality: "よだれが増えてきた。手をおしゃぶりがわりに吸うのが好き。"
 };
 

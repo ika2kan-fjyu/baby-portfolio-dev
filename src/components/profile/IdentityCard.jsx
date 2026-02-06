@@ -19,6 +19,20 @@ export function IdentityCard({ likes, dislikes, personality }) {
             </div>
 
             <div>
+                <div className="flex items-center gap-2 mb-3 text-sky-500">
+                    <Frown size={18} />
+                    <span className="font-bold text-sm">苦手なもの</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                    {dislikes.map(dislike => (
+                        <span key={dislike} className="bg-sky-50 text-sky-600 px-3 py-1 rounded-full text-sm font-medium">
+                            {dislike}
+                        </span>
+                    ))}
+                </div>
+            </div>
+
+            <div>
                 <div className="flex items-center gap-2 mb-3 text-indigo-500">
                     <Sparkles size={18} />
                     <span className="font-bold text-sm">性格・特徴</span>
