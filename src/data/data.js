@@ -2,9 +2,8 @@ export const profileData = {
     name: "周 (Amane)",
     birthDate: "2025-09-03",
     currentStats: {
-        height: "58.4 cm",
-        weight: "6.0 kg",
-        age: "0歳4ヶ月"
+        height: "61.0 cm",
+        weight: "5.8 kg"
     },
     likes: ["しましまぐるぐる"],
     dislikes: ["ブロッコリー", "着替え"],
@@ -37,9 +36,25 @@ export const achievementsData = [
         icon: "👶"
     },
     {
+        id: "first-neck",
+        category: "body",
+        title: "首がすわった",
+        date: "2025-01-30",
+        isUnlocked: true,
+        icon: "👶"
+    },
+    {
+        id: "first-sleep",
+        category: "body",
+        title: "寝返りをうった",
+        date: "",
+        isUnlocked: false,
+        icon: "👶"
+    },
+    {
         id: "first-sit",
         category: "body",
-        title: "初めてお座りした",
+        title: "お座りできた",
         date: "",
         isUnlocked: false,
         icon: "🧎‍♂️"
@@ -47,7 +62,7 @@ export const achievementsData = [
     {
         id: "first-haihai",
         category: "body",
-        title: "初めてハイハイした",
+        title: "ハイハイできた",
         date: "",
         isUnlocked: false,
         icon: "👣"
@@ -55,7 +70,7 @@ export const achievementsData = [
     {
         id: "first-support-standing",
         category: "body",
-        title: "初めてつかまり立ちできた",
+        title: "つかまり立ちできた",
         date: "",
         isUnlocked: false,
         icon: "👣"
@@ -63,7 +78,7 @@ export const achievementsData = [
     {
         id: "first-standing",
         category: "body",
-        title: "初めて立てた",
+        title: "立てた",
         date: "",
         isUnlocked: false,
         icon: "👣"
@@ -206,7 +221,19 @@ export const achievementsData = [
     },
 ];
 
+// 
+// ここからメモリーズ
+// 
+
 export const memoriesData = [
+    {
+        id: 2026020301,
+        date: "2026-02-03",
+        title: "5ヶ月記念日",
+        description: "生まれてから5ヶ月が経ったよ",
+        tags: ["記念日"],
+        image: ""
+    },
     {
         id: 2026012701,
         date: "2026-01-27",
@@ -553,6 +580,10 @@ export const memoriesData = [
     // }
 ];
 
+// 
+// ここからコレクション
+// 
+
 export const collectionsData = [
     { id: 1, src: "https://www.toyroyal.co.jp/wp-content/uploads/2021/06/3187_01.jpg", title: "コロコロアレー", tags: ["おもちゃ"] },
     { id: 2, src: "https://www.doshinsha.co.jp/nakami_imgs/9784494001019_0.jpg", title: "いないいないばあ", tags: ["絵本"] },
@@ -580,6 +611,10 @@ import work1 from '/works/work1.png';
 import work2 from '/works/work2.png';
 import work3 from '/works/work3.png';
 import work4 from '/works/work4.png';
+
+// 
+// ここからワークス
+// 
 
 export const worksData = [
     { id: 1, src: work1, title: "初めての殴り書き", age: 0, date: "2024-12-10" },
