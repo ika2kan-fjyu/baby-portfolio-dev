@@ -24,7 +24,7 @@ export function ProfileHero({ name, imageUrl }) {
                 <h1 className="mt-4 text-2xl font-bold text-slate-700 tracking-wide text-center">
                     {name}
                 </h1>
-                <div className="mt-1 w-8 h-1 bg-theme-blue rounded-full opacity-50" />
+                {/* <div className="mt-1 w-8 h-1 bg-theme-blue rounded-full opacity-50" /> */}
             </div>
         </div>
     );

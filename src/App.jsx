@@ -5,7 +5,7 @@ import { ProfileHero } from './components/profile/ProfileHero';
 import { StatsCard } from './components/profile/StatsCard';
 import { IdentityCard } from './components/profile/IdentityCard';
 import { profileData } from './data/data';
-import profileImage from '/profile/4month.jpeg';
+import profileImage from '/profile/5month.JPG';
 
 const Profile = () => {
   const birthDate = new Date(profileData.birthDate);
@@ -32,8 +32,28 @@ const Profile = () => {
 
       <div className="px-6 -mt-8 relative z-20">
         <div className="flex justify-between gap-3">
-          <StatsCard type="height" value={profileData.currentStats.height} />
-          <StatsCard type="weight" value={profileData.currentStats.weight} />
+          <StatsCard
+            type="height"
+            value={
+              <div className="flex flex-col items-center leading-tight">
+                <span>{profileData.currentStats.height.value}</span>
+                <span className="text-[10px] text-slate-400 font-normal mt-0.5">
+                  {profileData.currentStats.height.date.replace(/-/g, '/')}
+                </span>
+              </div>
+            }
+          />
+          <StatsCard
+            type="weight"
+            value={
+              <div className="flex flex-col items-center leading-tight">
+                <span>{profileData.currentStats.weight.value}</span>
+                <span className="text-[10px] text-slate-400 font-normal mt-0.5">
+                  {profileData.currentStats.weight.date.replace(/-/g, '/')}
+                </span>
+              </div>
+            }
+          />
           <StatsCard
             type="age"
             value={

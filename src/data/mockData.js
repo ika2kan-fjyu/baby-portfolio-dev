@@ -2,8 +2,8 @@ export const profileData = {
     name: "太郎 (Taro)",
     birthDate: "2026-01-01",
     currentStats: {
-        height: "58.4 cm",
-        weight: "6.0 kg",
+        height: { value: "58.4 cm", date: "2026-04-20" },
+        weight: { value: "6.0 kg", date: "2026-04-20" },
         age: "0歳4ヶ月"
     },
     likes: ["しましまぐるぐる"],
