@@ -232,7 +232,7 @@ export const memoriesData = [
         title: "5ヶ月記念日",
         description: "生まれてから5ヶ月が経ったよ",
         tags: ["記念日"],
-        image: ""
+        image: "/memories/20260203.jpeg"
     },
     {
         id: 2026012701,
