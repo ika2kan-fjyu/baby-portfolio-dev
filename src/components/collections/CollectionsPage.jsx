@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { createPortal } from 'react-dom';
 import { PhotoItem } from './PhotoItem';
 import { collectionsData } from '../../data/data';
 import { Image as ImageIcon, X } from 'lucide-react';
@@ -60,7 +61,7 @@ export function CollectionsPage() {
             </div>
 
             {/* Soft Popup */}
-            {selectedItem && (
+            {selectedItem && createPortal(
                 <div className="fixed inset-0 z-50 flex items-center justify-center p-6">
                     <div
                         className="absolute inset-0 bg-black/40 backdrop-blur-sm transition-opacity"
@@ -95,7 +96,8 @@ export function CollectionsPage() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>,
+                document.body
             )}
         </div>
     );
