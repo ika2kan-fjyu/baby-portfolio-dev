@@ -8,6 +8,8 @@ export const profileData = {
     },
     likes: ["しましまぐるぐる"],
     dislikes: ["ブロッコリー", "着替え"],
+    clothesSize: "80 cm",
+    shoeSize: "12.5 cm",
     personality: "よだれが増えてきた。手をおしゃぶりがわりに吸うのが好き。"
 };
 

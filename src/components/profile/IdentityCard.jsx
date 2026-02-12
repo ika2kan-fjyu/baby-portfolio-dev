@@ -1,7 +1,7 @@
 import React from 'react';
-import { Heart, Frown, Sparkles } from 'lucide-react';
+import { Heart, Frown, Sparkles, Shirt, Footprints } from 'lucide-react';
 
-export function IdentityCard({ likes, dislikes, personality }) {
+export function IdentityCard({ likes, dislikes, personality, clothesSize, shoeSize }) {
     return (
         <div className="mx-6 p-6 bg-white rounded-3xl shadow-sm border border-slate-100 flex flex-col gap-6">
             <div>
@@ -29,6 +29,31 @@ export function IdentityCard({ likes, dislikes, personality }) {
                             {dislike}
                         </span>
                     ))}
+                </div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4">
+                <div>
+                    <div className="flex items-center gap-2 mb-3 text-emerald-500">
+                        <Shirt size={18} />
+                        <span className="font-bold text-sm">服のサイズ</span>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                        <span className="bg-emerald-50 text-emerald-600 px-3 py-1 rounded-full text-sm font-medium">
+                            {clothesSize}
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <div className="flex items-center gap-2 mb-3 text-amber-500">
+                        <Footprints size={18} />
+                        <span className="font-bold text-sm">靴のサイズ</span>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                        <span className="bg-amber-50 text-amber-600 px-3 py-1 rounded-full text-sm font-medium">
+                            {shoeSize}
+                        </span>
+                    </div>
                 </div>
             </div>
 

@@ -73,6 +73,8 @@ const Profile = () => {
           likes={profileData.likes}
           dislikes={profileData.dislikes}
           personality={profileData.personality}
+          clothesSize={profileData.clothesSize}
+          shoeSize={profileData.shoeSize}
         />
       </div>
 

@@ -7,6 +7,8 @@ export const profileData = {
     },
     likes: ["しましまぐるぐる"],
     dislikes: ["ペットボトルを潰す音"],
+    clothesSize: "70 cm",
+    shoeSize: "??? cm",
     personality: "よだれが増えてきた。手をおしゃぶりがわりに吸うのが好き。"
 };
 
