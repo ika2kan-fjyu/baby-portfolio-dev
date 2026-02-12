@@ -113,8 +113,8 @@ export const achievementsData = [
         id: "baby-okayu",
         category: "food",
         title: "10倍粥を食べた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-02-06",
+        isUnlocked: true,
         icon: "🍙"
     },
     {
@@ -228,6 +228,14 @@ export const achievementsData = [
 // 
 
 export const memoriesData = [
+    {
+        id: 2026020601,
+        date: "2026-02-06",
+        title: "10倍粥デビュー",
+        description: "離乳食をスタートしたよ",
+        tags: ["離乳食"],
+        image: "/memories/20260206.jpg"
+    },
     {
         id: 2026020301,
         date: "2026-02-03",
