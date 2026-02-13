@@ -613,7 +613,7 @@ export const collectionsData = [
     { id: 16, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_243241.jpg", title: "だるまさんが", tags: ["絵本"] },
     { id: 17, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_243243.jpg", title: "だるまさんの", tags: ["絵本"] },
     { id: 18, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_243242.jpg", title: "だるまさんと", tags: ["絵本"] },
-    { id: 18, src: "https://www.shogakukan.co.jp/thumbnail/books/09727065", title: "ミッケ！3 クリスマス", tags: ["絵本"] },
+    { id: 19, src: "https://www.shogakukan.co.jp/thumbnail/books/09727065", title: "ミッケ！3 クリスマス", tags: ["絵本"] },
     // { id: 0, src: "", title: "", tags: [""] },
 ];
 
