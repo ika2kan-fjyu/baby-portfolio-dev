@@ -9,10 +9,10 @@ export function MemoryCard({ date, title, description, tags, image }) {
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-theme-pink ring-4 ring-white" />
             </div>
 
-            <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 group hover:shadow-md transition-shadow">
+            <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 group transition-shadow">
                 {image && (
-                    <div className="h-48 overflow-hidden">
-                        <img src={image} alt={title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                    <div className="overflow-hidden">
+                        <img src={image} alt={title} className="w-full h-auto transition-transform duration-500" />
                     </div>
                 )}
                 <div className="p-5">
