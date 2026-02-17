@@ -41,7 +41,7 @@ export const achievementsData = [
         id: "first-neck",
         category: "body",
         title: "首がすわった",
-        date: "2025-01-30",
+        date: "2026-01-30",
         isUnlocked: true,
         icon: "👶"
     },
@@ -52,6 +52,14 @@ export const achievementsData = [
         date: "",
         isUnlocked: false,
         icon: "👶"
+    },
+    {
+        id: "first-foot",
+        category: "body",
+        title: "足をみつけた",
+        date: "2026-01-22",
+        isUnlocked: true,
+        icon: "🦶👀"
     },
     {
         id: "first-sit",
@@ -110,7 +118,7 @@ export const achievementsData = [
         icon: "🍼"
     },
     {
-        id: "baby-okayu",
+        id: "baby-10okayu",
         category: "food",
         title: "10倍粥を食べた",
         date: "2026-02-06",
@@ -118,9 +126,17 @@ export const achievementsData = [
         icon: "🍙"
     },
     {
-        id: "baby-rice",
+        id: "baby-7okayu",
         category: "food",
-        title: "米を食べた",
+        title: "7倍粥を食べた",
+        date: "",
+        isUnlocked: false,
+        icon: "🍙"
+    },
+    {
+        id: "baby-5okayu",
+        category: "food",
+        title: "5倍粥を食べた",
         date: "",
         isUnlocked: false,
         icon: "🍙"
@@ -129,9 +145,17 @@ export const achievementsData = [
         id: "baby-carrot",
         category: "food",
         title: "にんじんを食べた",
+        date: "2026-02-17",
+        isUnlocked: true,
+        icon: "🥕"
+    },
+    {
+        id: "baby-pumpkin",
+        category: "food",
+        title: "かぼちゃを食べた",
         date: "",
         isUnlocked: false,
-        icon: "🥕"
+        icon: "🎃"
     },
     {
         id: "baby-potato",
@@ -228,6 +252,14 @@ export const achievementsData = [
 // 
 
 export const memoriesData = [
+    {
+        id: 2026021701,
+        date: "2026-02-17",
+        title: "にんじんデビュー",
+        description: "にんじんペーストを食べたよ",
+        tags: ["離乳食"],
+        image: "/memories/20260217.jpg"
+    },
     {
         id: 2026020601,
         date: "2026-02-06",
