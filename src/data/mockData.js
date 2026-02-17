@@ -6,11 +6,11 @@ export const profileData = {
         weight: { value: "6.0 kg", date: "2026-04-20" },
         age: "0歳4ヶ月"
     },
-    likes: ["しましまぐるぐる"],
+    likes: ["スプーン"],
     dislikes: ["ブロッコリー", "着替え"],
     clothesSize: "80 cm",
     shoeSize: "12.5 cm",
-    personality: "よだれが増えてきた。手をおしゃぶりがわりに吸うのが好き。"
+    personality: "若干人見知り。よく指をしゃぶる。"
 };
 
 export const achievementsData = [
@@ -76,10 +76,10 @@ export const collectionsData = [
     { id: 6, src: "https://images.unsplash.com/photo-1505693444086-7a1ebce51c46?q=80&w=300", title: "お出かけ用バギー", tags: ["おもちゃ"] },
 ];
 
-import work1 from '../assets/works/work1.png';
-import work2 from '../assets/works/work2.png';
-import work3 from '../assets/works/work3.png';
-import work4 from '../assets/works/work4.png';
+import work1 from '/works/work1.png';
+import work2 from '/works/work2.png';
+import work3 from '/works/work3.png';
+import work4 from '/works/work4.png';
 
 export const worksData = [
     { id: 1, src: work1, title: "初めての殴り書き", age: 0, date: "2024-12-10" },
