@@ -253,6 +253,14 @@ export const achievementsData = [
 
 export const memoriesData = [
     {
+        id: 2026022201,
+        date: "2026-02-22",
+        title: "かぼちゃデビュー",
+        description: "かぼちゃペーストを食べてみようとしたけど食べなかったよ",
+        tags: ["離乳食"],
+        image: "/memories/20260222.jpg"
+    },
+    {
         id: 2026021701,
         date: "2026-02-17",
         title: "にんじんデビュー",
@@ -646,6 +654,7 @@ export const collectionsData = [
     { id: 17, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_243243.jpg", title: "だるまさんの", tags: ["絵本"] },
     { id: 18, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_243242.jpg", title: "だるまさんと", tags: ["絵本"] },
     { id: 19, src: "https://www.shogakukan.co.jp/thumbnail/books/09727065", title: "ミッケ！3 クリスマス", tags: ["絵本"] },
+    { id: 20, src: "https://s3-ap-northeast-1.amazonaws.com/kss-data001/book_images/9784031024402.jpg", title: "じゃあじゃあびりびり", tags: ["絵本"] },
     // { id: 0, src: "", title: "", tags: [""] },
 ];
 
