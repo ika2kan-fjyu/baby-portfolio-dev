@@ -153,8 +153,8 @@ export const achievementsData = [
         id: "baby-pumpkin",
         category: "food",
         title: "かぼちゃを食べた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-02-22",
+        isUnlocked: true,
         icon: "🎃"
     },
     {
@@ -212,6 +212,22 @@ export const achievementsData = [
         date: "2025-10-30",
         isUnlocked: true,
         icon: "🤧"
+    },
+    {
+        id: "omiyamairi",
+        category: "activity",
+        title: "お宮参りをした",
+        date: "2025-10-13",
+        isUnlocked: true,
+        icon: "⛩️"
+    },
+    {
+        id: "okuizome",
+        category: "activity",
+        title: "お食い初めをした",
+        date: "2025-12-21",
+        isUnlocked: true,
+        icon: "🐟"
     },
     {
         id: "first-walk",
