@@ -2,14 +2,14 @@ export const profileData = {
     name: "周 (あまね/Amane)",
     birthDate: "2025-09-03",
     currentStats: {
-        height: { value: "61 cm", date: "2026-01-30" },
-        weight: { value: "5.8 kg", date: "2026-01-30" },
+        height: { value: "66.5cm", date: "2026-03-05" },
+        weight: { value: "6.3kg", date: "2026-03-05" },
     },
     likes: ["しましまぐるぐる"],
-    dislikes: ["ペットボトルを潰す音"],
+    dislikes: ["にんじん🥕", "トマト🍅", "ペットボトルを潰す音"],
     clothesSize: "70 ~ 80cm",
     shoeSize: "??? cm",
-    personality: "よだれが増えてきた。手をおしゃぶりがわりに吸うのが好き。"
+    personality: "離乳食を始めて1ヶ月。手をおしゃぶりがわりに吸うのが好き。"
 };
 
 export const achievementsData = [
@@ -158,6 +158,14 @@ export const achievementsData = [
         icon: "🎃"
     },
     {
+        id: "baby-tomato",
+        category: "food",
+        title: "トマトを食べた",
+        date: "2026-03-03",
+        isUnlocked: true,
+        icon: "🍅"
+    },
+    {
         id: "baby-potato",
         category: "food",
         title: "じゃがいもを食べた",
@@ -204,6 +212,14 @@ export const achievementsData = [
         date: "",
         isUnlocked: false,
         icon: "🐟"
+    },
+    {
+        id: "baby-apple",
+        category: "food",
+        title: "りんごを食べた",
+        date: "2026-03-07",
+        isUnlocked: true,
+        icon: "🍎"
     },
     {
         id: "sneeze-5",
