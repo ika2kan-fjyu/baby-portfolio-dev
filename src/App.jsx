@@ -5,7 +5,7 @@ import { ProfileHero } from './components/profile/ProfileHero';
 import { StatsCard } from './components/profile/StatsCard';
 import { IdentityCard } from './components/profile/IdentityCard';
 import { profileData } from './data/data';
-import profileImage from '/profile/5month.JPG';
+import profileImage from '/profile/6month.jpeg';
 
 const Profile = () => {
   const birthDate = new Date(profileData.birthDate);

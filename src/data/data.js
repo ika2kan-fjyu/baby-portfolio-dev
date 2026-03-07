@@ -285,6 +285,30 @@ export const achievementsData = [
 
 export const memoriesData = [
     {
+        id: 2026030701,
+        date: "2026-03-07",
+        title: "りんごデビュー",
+        description: "初めてりんごを食べたよ（りんごジュース）",
+        tags: ["離乳食"],
+        image: "/memories/20260307.jpg"
+    },
+    {
+        id: 2026030601,
+        date: "2026-03-06",
+        title: "はんこ注射",
+        description: "BCGを打ったよ💉",
+        tags: ["予防接種"],
+        image: "/memories/20260306.jpg"
+    },
+    {
+        id: 2026030301,
+        date: "2026-03-03",
+        title: "半年記念日",
+        description: "生まれてから半年が経ったよ。皆既月食だったけど雨で観測できなかった",
+        tags: ["記念日"],
+        image: "/memories/20260303.jpeg"
+    },
+    {
         id: 2026022201,
         date: "2026-02-22",
         title: "かぼちゃデビュー",
