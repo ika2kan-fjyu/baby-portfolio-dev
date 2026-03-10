@@ -169,8 +169,8 @@ export const achievementsData = [
         id: "baby-potato",
         category: "food",
         title: "じゃがいもを食べた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-03-10",
+        isUnlocked: true,
         icon: "🥔"
     },
     {
@@ -284,6 +284,14 @@ export const achievementsData = [
 // 
 
 export const memoriesData = [
+    {
+        id: 2026031001,
+        date: "2026-03-10",
+        title: "じゃがいもデビュー",
+        description: "初めてじゃがいもを食べたよ",
+        tags: ["離乳食"],
+        image: ""
+    },
     {
         id: 2026030701,
         date: "2026-03-07",
@@ -711,6 +719,8 @@ export const collectionsData = [
     { id: 18, src: "https://www.ehonnavi.net/img/cover/350/350_Ehon_243242.jpg", title: "だるまさんと", tags: ["絵本"] },
     { id: 19, src: "https://www.shogakukan.co.jp/thumbnail/books/09727065", title: "ミッケ！3 クリスマス", tags: ["絵本"] },
     { id: 20, src: "https://s3-ap-northeast-1.amazonaws.com/kss-data001/book_images/9784031024402.jpg", title: "じゃあじゃあびりびり", tags: ["絵本"] },
+    { id: 21, src: "https://www.toyroyal.co.jp/wp-content/uploads/2021/06/3194_01.jpg", title: "やわらかリングかみかみ", tags: ["おもちゃ"] },
+    { id: 22, src: "https://www.toyroyal.co.jp/wp-content/uploads/2021/06/1030_01.jpg", title: "ぺちゃ(ウサギ)", tags: ["おもちゃ"] },
     // { id: 0, src: "", title: "", tags: [""] },
 ];
 
