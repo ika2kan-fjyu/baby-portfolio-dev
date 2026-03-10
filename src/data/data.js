@@ -123,7 +123,7 @@ export const achievementsData = [
         title: "10倍粥を食べた",
         date: "2026-02-06",
         isUnlocked: true,
-        icon: "🍙"
+        icon: "🍚"
     },
     {
         id: "baby-7okayu",
@@ -131,7 +131,7 @@ export const achievementsData = [
         title: "7倍粥を食べた",
         date: "",
         isUnlocked: false,
-        icon: "🍙"
+        icon: "🍚"
     },
     {
         id: "baby-5okayu",
@@ -139,7 +139,15 @@ export const achievementsData = [
         title: "5倍粥を食べた",
         date: "",
         isUnlocked: false,
-        icon: "🍙"
+        icon: "🍚"
+    },
+    {
+        id: "baby-rice",
+        category: "food",
+        title: "ごはんを食べた",
+        date: "",
+        isUnlocked: false,
+        icon: "🍚"
     },
     {
         id: "baby-carrot",
@@ -214,12 +222,36 @@ export const achievementsData = [
         icon: "🐟"
     },
     {
+        id: "baby-tofu",
+        category: "food",
+        title: "豆腐を食べた",
+        date: "",
+        isUnlocked: false,
+        icon: "🥣"
+    },
+    {
         id: "baby-apple",
         category: "food",
         title: "りんごを食べた",
         date: "2026-03-07",
         isUnlocked: true,
         icon: "🍎"
+    },
+    {
+        id: "baby-grape",
+        category: "food",
+        title: "ぶどうを食べた",
+        date: "",
+        isUnlocked: false,
+        icon: "🍇"
+    },
+    {
+        id: "baby-strawberry",
+        category: "food",
+        title: "いちごを食べた",
+        date: "",
+        isUnlocked: false,
+        icon: "🍓"
     },
     {
         id: "sneeze-5",
@@ -284,6 +316,14 @@ export const achievementsData = [
 // 
 
 export const memoriesData = [
+    {
+        id: 2026031002,
+        date: "2026-03-10",
+        title: "初めての2回食",
+        description: "夜に2回目の10倍粥を食べたよ🥣",
+        tags: ["離乳食"],
+        image: ""
+    },
     {
         id: 2026031001,
         date: "2026-03-10",
