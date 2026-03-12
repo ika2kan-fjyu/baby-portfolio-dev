@@ -333,6 +333,14 @@ export const memoriesData = [
         image: ""
     },
     {
+        id: 2026030901,
+        date: "2026-03-09",
+        title: "Lサイズに交換",
+        description: "哺乳瓶の乳首のサイズをLサイズに交換したよ",
+        tags: ["授乳"],
+        image: ""
+    },
+    {
         id: 2026030701,
         date: "2026-03-07",
         title: "りんごデビュー",
@@ -355,6 +363,14 @@ export const memoriesData = [
         description: "生まれてから半年が経ったよ。皆既月食だったけど雨で観測できなかった",
         tags: ["記念日"],
         image: "/memories/20260303.jpeg"
+    },
+    {
+        id: 2026030201,
+        date: "2026-03-02",
+        title: "焼肉デビュー",
+        description: "初めて牛角に来たよ",
+        tags: ["お出かけ"],
+        image: "/memories/20260302.jpg"
     },
     {
         id: 2026022201,
