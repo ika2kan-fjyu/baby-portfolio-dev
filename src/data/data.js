@@ -113,8 +113,8 @@ export const achievementsData = [
         id: "milk-240ml",
         category: "food",
         title: "ミルクを一度に240ml飲んだ",
-        date: "",
-        isUnlocked: false,
+        date: "2026-03-16",
+        isUnlocked: true,
         icon: "🍼"
     },
     {
@@ -129,16 +129,16 @@ export const achievementsData = [
         id: "baby-7okayu",
         category: "food",
         title: "7倍粥を食べた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-03-14",
+        isUnlocked: true,
         icon: "🍚"
     },
     {
         id: "baby-5okayu",
         category: "food",
         title: "5倍粥を食べた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-03-12",
+        isUnlocked: true,
         icon: "🍚"
     },
     {
@@ -190,20 +190,28 @@ export const achievementsData = [
         icon: "🥦"
     },
     {
-        id: "baby-egg",
+        id: "baby-spinach",
         category: "food",
-        title: "卵黄を食べた",
+        title: "ほうれん草を食べた",
         date: "",
         isUnlocked: false,
-        icon: "🍳"
+        icon: "🥬"
     },
     {
-        id: "baby-allegg",
+        id: "baby-corn",
         category: "food",
-        title: "全卵を食べた",
+        title: "とうもろこしを食べた",
         date: "",
         isUnlocked: false,
-        icon: "🥚"
+        icon: "🌽"
+    },
+    {
+        id: "baby-egg",
+        category: "food",
+        title: "全卵を食べた",
+        date: "2026-03-17",
+        isUnlocked: true,
+        icon: "🍳"
     },
     {
         id: "baby-white-fish",
@@ -225,8 +233,8 @@ export const achievementsData = [
         id: "baby-tofu",
         category: "food",
         title: "豆腐を食べた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-03-14",
+        isUnlocked: true,
         icon: "🥣"
     },
     {
@@ -317,6 +325,22 @@ export const achievementsData = [
 
 export const memoriesData = [
     {
+        id: 2026031701,
+        date: "2026-03-17",
+        title: "初めて卵を食べたよ",
+        description: "卵ペーストを食べたよ。",
+        tags: ["離乳食"],
+        image: ""
+    },
+    {
+        id: 2026031401,
+        date: "2026-03-14",
+        title: "初めて豆腐を食べたよ",
+        description: "豆腐ペーストを食べたよ。",
+        tags: ["離乳食"],
+        image: "/memories/20260314.jpg"
+    },
+    {
         id: 2026031002,
         date: "2026-03-10",
         title: "初めての2回食",
@@ -330,7 +354,7 @@ export const memoriesData = [
         title: "じゃがいもデビュー",
         description: "初めてじゃがいもを食べたよ",
         tags: ["離乳食"],
-        image: ""
+        image: "/memories/20260310.jpg"
     },
     {
         id: 2026030901,
