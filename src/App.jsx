@@ -4,7 +4,7 @@ import { MobileLayout } from './layouts/MobileLayout';
 import { ProfileHero } from './components/profile/ProfileHero';
 import { StatsCard } from './components/profile/StatsCard';
 import { IdentityCard } from './components/profile/IdentityCard';
-import { profileData } from './data/data';
+import { profileData } from './data/profileData';
 import profileImage from '/profile/6month.jpeg';
 
 const Profile = () => {

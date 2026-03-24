@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArtFrame } from './ArtFrame';
 import { AgeFilter } from './AgeFilter';
-import { worksData } from '../../data/data';
+import { worksData } from '../../data/worksData';
 import { Palette } from 'lucide-react';
 
 export function WorksPage() {

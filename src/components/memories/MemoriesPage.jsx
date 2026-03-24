@@ -1,7 +1,8 @@
 
 import React, { useState } from 'react';
 import { MemoryCard } from './MemoryCard';
-import { memoriesData, profileData } from '../../data/data';
+import { profileData } from '../../data/profileData';
+import { memoriesData } from '../../data/memoriesData';
 import { AgeFilter } from '../works/AgeFilter';
 import { Sparkles } from 'lucide-react';
 

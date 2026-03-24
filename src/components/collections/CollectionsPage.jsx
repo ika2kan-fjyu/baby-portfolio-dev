@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { PhotoItem } from './PhotoItem';
-import { collectionsData } from '../../data/data';
+import { collectionsData } from '../../data/collectionsData';
 import { Image as ImageIcon, X } from 'lucide-react';
 
 export function CollectionsPage() {
