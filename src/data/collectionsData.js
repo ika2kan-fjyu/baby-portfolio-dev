@@ -131,6 +131,12 @@ export const collectionsData = [
         title: "ぺちゃ(ウサギ)",
         tags: ["おもちゃ"]
     },
+    {
+        id: 23,
+        src: "https://www.24028-net.jp/client_info/N24028/itemimage/4571138756511/4571138756511.jpg",
+        title: "おでかけチャイム ぞうさん",
+        tags: ["おもちゃ"]
+    },
     // { 
     //     id: 0, 
     //     src: "", 
