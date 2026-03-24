@@ -168,6 +168,14 @@ export const achievementsData = [
         icon: "🥔"
     },
     {
+        id: "baby-onion",
+        category: "food",
+        title: "玉ねぎを食べた",
+        date: "2026-03-23",
+        isUnlocked: true,
+        icon: "🧅"
+    },
+    {
         id: "baby-broccoli",
         category: "food",
         title: "ブロッコリーを食べた",
