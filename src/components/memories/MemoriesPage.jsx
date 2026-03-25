@@ -4,7 +4,7 @@ import { MemoryCard } from './MemoryCard';
 import { profileData } from '../../data/profileData';
 import { memoriesData } from '../../data/memoriesData';
 import { AgeFilter } from '../works/AgeFilter';
-import { Sparkles } from 'lucide-react';
+import { LibraryBig } from 'lucide-react';
 
 export const MemoriesPage = () => {
     const [activeAge, setActiveAge] = useState(0);
@@ -35,7 +35,7 @@ export const MemoriesPage = () => {
         <div className="px-6 py-8 min-h-screen bg-bg-base">
             <div className="flex items-center gap-2 mb-8 pl-2">
                 <div className="bg-pink-100 p-2 rounded-full shadow-sm text-pink-400">
-                    <Sparkles size={24} />
+                    <LibraryBig size={24} />
                 </div>
                 <div>
                     <h1 className="text-2xl font-bold text-slate-700">Memories</h1>

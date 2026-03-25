@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { User, BookHeart, Trophy, Image, Palette } from 'lucide-react';
+import { User, LibraryBig, Trophy, Shapes, Palette } from 'lucide-react';
 import { cn } from '../lib/utils';
 
 const navItems = [
     { to: '/', icon: User, label: 'Profile', color: 'text-theme-blue' },
-    { to: '/memories', icon: BookHeart, label: 'Memories', color: 'text-theme-pink' },
+    { to: '/memories', icon: LibraryBig, label: 'Memories', color: 'text-theme-pink' },
     { to: '/achievements', icon: Trophy, label: 'Achievements', color: 'text-theme-yellow' },
-    { to: '/collections', icon: Image, label: 'Collections', color: 'text-theme-mint' },
+    { to: '/collections', icon: Shapes, label: 'Collections', color: 'text-theme-mint' },
     { to: '/works', icon: Palette, label: 'Works', color: 'text-theme-lavender' },
 ];
 

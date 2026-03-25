@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { PhotoItem } from './PhotoItem';
 import { collectionsData } from '../../data/collectionsData';
-import { Image as ImageIcon, X } from 'lucide-react';
+import { Shapes, X } from 'lucide-react';
 
 export function CollectionsPage() {
     const [selectedItem, setSelectedItem] = useState(null);
@@ -24,7 +24,7 @@ export function CollectionsPage() {
         <div className="px-6 py-8 pb-24 min-h-screen bg-bg-base relative">
             <div className="flex items-center gap-2 mb-8 pl-2">
                 <div className="bg-emerald-100 p-2 rounded-full text-emerald-500">
-                    <ImageIcon size={24} />
+                    <Shapes size={24} />
                 </div>
                 <div>
                     <h1 className="text-2xl font-bold text-slate-700">Collections</h1>
