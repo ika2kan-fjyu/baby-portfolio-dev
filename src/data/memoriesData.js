@@ -1,11 +1,35 @@
 export const memoriesData = [
     {
+        id: 2026032702,
+        date: "2026-03-27",
+        title: "花見🌸&ピクニック🍱",
+        description: "昭和記念公園に初めて行ったよ",
+        tags: ["お出かけ", "花見", "ピクニック"],
+        image: "/memories/2026032702.jpeg"
+    },
+    {
+        id: 2026032701,
+        date: "2026-03-27",
+        title: "初めてとうもろこしを食べたよ",
+        description: "とうもろこしペーストを食べたよ。",
+        tags: ["離乳食"],
+        image: "/memories/2026032701.jpg"
+    },
+    {
         id: 2026032301,
         date: "2026-03-23",
         title: "初めて玉ねぎを食べたよ",
         description: "玉ねぎペーストを食べたよ。",
         tags: ["離乳食"],
         image: ""
+    },
+    {
+        id: 2026032001,
+        date: "2026-03-20",
+        title: "ひいばあちゃん",
+        description: "朝霞のひいばあちゃんに会ったよ",
+        tags: ["曾祖母"],
+        image: "/memories/20260320.jpg"
     },
     {
         id: 2026031701,

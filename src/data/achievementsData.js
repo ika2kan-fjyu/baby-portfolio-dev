@@ -195,8 +195,8 @@ export const achievementsData = [
         id: "baby-corn",
         category: "food",
         title: "とうもろこしを食べた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-03-27",
+        isUnlocked: true,
         icon: "🌽"
     },
     {
