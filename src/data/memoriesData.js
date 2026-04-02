@@ -1,5 +1,21 @@
 export const memoriesData = [
     {
+        id: 20260040201,
+        date: "2026-04-02",
+        title: "さつまいもデビュー",
+        description: "キューピー「かぼちゃとさつまいも」ペーストを食べたよ",
+        tags: ["離乳食"],
+        image: "/memories/20260402.jpg"
+    },
+    {
+        id: 20260040101,
+        date: "2026-04-01",
+        title: "入園式🎊",
+        description: "三輪保育園の入園式があったよ",
+        tags: ["保育園", "行事"],
+        image: "/memories/20260401.jpeg"
+    },
+    {
         id: 2026032702,
         date: "2026-03-27",
         title: "花見🌸&ピクニック🍱",
@@ -10,7 +26,7 @@ export const memoriesData = [
     {
         id: 2026032701,
         date: "2026-03-27",
-        title: "初めてとうもろこしを食べたよ",
+        title: "とうもろこしデビュー",
         description: "とうもろこしペーストを食べたよ。",
         tags: ["離乳食"],
         image: "/memories/2026032701.jpg"
@@ -18,7 +34,7 @@ export const memoriesData = [
     {
         id: 2026032301,
         date: "2026-03-23",
-        title: "初めて玉ねぎを食べたよ",
+        title: "玉ねぎデビュー",
         description: "玉ねぎペーストを食べたよ。",
         tags: ["離乳食"],
         image: ""
@@ -34,7 +50,7 @@ export const memoriesData = [
     {
         id: 2026031701,
         date: "2026-03-17",
-        title: "初めて卵を食べたよ",
+        title: "卵デビュー",
         description: "卵ペーストを食べたよ。",
         tags: ["離乳食"],
         image: ""
@@ -42,7 +58,7 @@ export const memoriesData = [
     {
         id: 2026031401,
         date: "2026-03-14",
-        title: "初めて豆腐を食べたよ",
+        title: "豆腐デビュー",
         description: "豆腐ペーストを食べたよ。",
         tags: ["離乳食"],
         image: "/memories/20260314.jpg"
