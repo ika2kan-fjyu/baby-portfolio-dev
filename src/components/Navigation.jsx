@@ -14,7 +14,7 @@ const navItems = [
 export function Navigation() {
     return (
         <nav className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 w-full max-w-sm px-4">
-            <div className="bg-white/90 backdrop-blur-md border border-white/40 shadow-xl shadow-slate-200/50 rounded-full px-6 py-4 flex justify-between items-center">
+            <div className="bg-slate-100/90 backdrop-blur-sm border border-slate-200 shadow-2xl shadow-slate-300/60 rounded-full px-6 py-4 flex justify-between items-center">
                 {navItems.map(({ to, icon: Icon, label, color }) => (
                     <NavLink
                         key={to}
