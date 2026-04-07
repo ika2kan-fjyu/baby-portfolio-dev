@@ -137,6 +137,12 @@ export const collectionsData = [
         title: "おでかけチャイム ぞうさん",
         tags: ["おもちゃ"]
     },
+    {
+        id: 24,
+        src: "https://www.ehonnavi.net/img/cover/350/350_256369.jpg",
+        title: "がったい",
+        tags: ["絵本"]
+    },
     // { 
     //     id: 0, 
     //     src: "", 

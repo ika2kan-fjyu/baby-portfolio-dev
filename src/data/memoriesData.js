@@ -1,5 +1,13 @@
 export const memoriesData = [
     {
+        id: 20260040601,
+        date: "2026-04-06",
+        title: "バナナデビュー",
+        description: "初めてバナナを食べたよ",
+        tags: ["離乳食"],
+        image: "/memories/20260406.jpg"
+    },
+    {
         id: 20260040201,
         date: "2026-04-02",
         title: "さつまいもデビュー",

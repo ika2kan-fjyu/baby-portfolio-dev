@@ -176,6 +176,14 @@ export const achievementsData = [
         icon: "🧅"
     },
     {
+        id: "baby-sweet-potato",
+        category: "food",
+        title: "さつまいもを食べた",
+        date: "2026-04-02",
+        isUnlocked: true,
+        icon: "🍠"
+    },
+    {
         id: "baby-broccoli",
         category: "food",
         title: "ブロッコリーを食べた",
@@ -246,6 +254,14 @@ export const achievementsData = [
         date: "",
         isUnlocked: false,
         icon: "🍇"
+    },
+    {
+        id: "baby-banana",
+        category: "food",
+        title: "バナナを食べた",
+        date: "2026-04-06",
+        isUnlocked: true,
+        icon: "🍌"
     },
     {
         id: "baby-strawberry",
