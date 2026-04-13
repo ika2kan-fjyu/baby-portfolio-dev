@@ -35,8 +35,8 @@ export const achievementsData = [
         id: "first-sleep",
         category: "body",
         title: "寝返りをうった",
-        date: "",
-        isUnlocked: false,
+        date: "2026-04-08",
+        isUnlocked: true,
         icon: "👶"
     },
     {
@@ -136,6 +136,38 @@ export const achievementsData = [
         icon: "🍚"
     },
     {
+        id: "baby-udon",
+        category: "food",
+        title: "うどんを食べた",
+        date: "",
+        isUnlocked: false,
+        icon: "🍲"
+    },
+    {
+        id: "baby-somen",
+        category: "food",
+        title: "そうめんを食べた",
+        date: "2026-04-12",
+        isUnlocked: true,
+        icon: "🍲"
+    },
+    {
+        id: "baby-pasta",
+        category: "food",
+        title: "パスタを食べた",
+        date: "",
+        isUnlocked: false,
+        icon: "🍝"
+    },
+    {
+        id: "baby-ramen",
+        category: "food",
+        title: "ラーメンを食べた",
+        date: "",
+        isUnlocked: false,
+        icon: "🍜"
+    },
+    {
         id: "baby-carrot",
         category: "food",
         title: "にんじんを食べた",
@@ -195,8 +227,8 @@ export const achievementsData = [
         id: "baby-spinach",
         category: "food",
         title: "ほうれん草を食べた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-04-09",
+        isUnlocked: true,
         icon: "🥬"
     },
     {
@@ -236,6 +268,14 @@ export const achievementsData = [
         category: "food",
         title: "豆腐を食べた",
         date: "2026-03-14",
+        isUnlocked: true,
+        icon: "🥣"
+    },
+    {
+        id: "baby-natto",
+        category: "food",
+        title: "納豆を食べた",
+        date: "2026-04-12",
         isUnlocked: true,
         icon: "🥣"
     },

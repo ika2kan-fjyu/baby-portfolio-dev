@@ -1,5 +1,37 @@
 export const memoriesData = [
     {
+        id: 20260041202,
+        date: "2026-04-12",
+        title: "納豆デビュー",
+        description: "初めて納豆を食べたよ",
+        tags: ["離乳食"],
+        image: "/memories/2026041202.jpg"
+    },
+    {
+        id: 20260041201,
+        date: "2026-04-12",
+        title: "そうめんデビュー",
+        description: "初めてそうめんを食べたよ",
+        tags: ["離乳食"],
+        image: "/memories/2026041201.jpg"
+    },
+    {
+        id: 20260040901,
+        date: "2026-04-09",
+        title: "ほうれん草デビュー",
+        description: "初めてほうれん草を食べたよ",
+        tags: ["離乳食"],
+        image: "/memories/20260409.jpg"
+    },
+    {
+        id: 20260040801,
+        date: "2026-04-08",
+        title: "寝返り成功！",
+        description: "初めて自力で寝返りしたよ",
+        tags: ["寝返り"],
+        image: "/memories/20260408.jpg"
+    },
+    {
         id: 20260040601,
         date: "2026-04-06",
         title: "バナナデビュー",

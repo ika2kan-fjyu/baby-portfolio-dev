@@ -143,6 +143,12 @@ export const collectionsData = [
         title: "がったい",
         tags: ["絵本"]
     },
+    {
+        id: 25,
+        src: "https://d2130aokgzcx3l.cloudfront.net/img/goods/L/SG49520_63c01fbf6238433f9b322f2bdbab60c9.jpg",
+        title: "アニマルボウリング",
+        tags: ["おもちゃ"]
+    },
     // { 
     //     id: 0, 
     //     src: "", 
