@@ -6,6 +6,7 @@ import { StatsCard } from './components/profile/StatsCard';
 import { IdentityCard } from './components/profile/IdentityCard';
 import { UpdatesCard } from './components/profile/UpdatesCard';
 import { profileData } from './data/profileData';
+import { updatesData } from './data/updatesData';
 import profileImage from '/profile/7month.jpeg';
 
 const Profile = () => {
@@ -70,7 +71,7 @@ const Profile = () => {
       </div>
 
       <div className="mt-8">
-        <UpdatesCard updates={profileData.updates} />
+        <UpdatesCard updates={updatesData} />
       </div>
 
       <div className="mt-8">
