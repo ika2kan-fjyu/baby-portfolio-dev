@@ -251,8 +251,8 @@ export const achievementsData = [
         id: "baby-white-fish",
         category: "food",
         title: "白身魚を食べた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-04-18",
+        isUnlocked: true,
         icon: "🐟"
     },
     {
