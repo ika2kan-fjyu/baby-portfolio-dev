@@ -106,7 +106,7 @@ export const achievementsData = [
     {
         id: "baby-10okayu",
         category: "food",
-        title: "10倍粥を食べた",
+        title: "10倍粥",
         date: "2026-02-06",
         isUnlocked: true,
         icon: "🍚"
@@ -114,7 +114,7 @@ export const achievementsData = [
     {
         id: "baby-7okayu",
         category: "food",
-        title: "7倍粥を食べた",
+        title: "7倍粥",
         date: "2026-03-14",
         isUnlocked: true,
         icon: "🍚"
@@ -122,7 +122,7 @@ export const achievementsData = [
     {
         id: "baby-5okayu",
         category: "food",
-        title: "5倍粥を食べた",
+        title: "5倍粥",
         date: "2026-03-12",
         isUnlocked: true,
         icon: "🍚"
@@ -130,7 +130,7 @@ export const achievementsData = [
     {
         id: "baby-rice",
         category: "food",
-        title: "ごはんを食べた",
+        title: "ごはん",
         date: "",
         isUnlocked: false,
         icon: "🍚"
@@ -138,7 +138,7 @@ export const achievementsData = [
     {
         id: "baby-udon",
         category: "food",
-        title: "うどんを食べた",
+        title: "うどん",
         date: "",
         isUnlocked: false,
         icon: "🍲"
@@ -146,7 +146,7 @@ export const achievementsData = [
     {
         id: "baby-somen",
         category: "food",
-        title: "そうめんを食べた",
+        title: "そうめん",
         date: "2026-04-12",
         isUnlocked: true,
         icon: "🍲"
@@ -154,7 +154,7 @@ export const achievementsData = [
     {
         id: "baby-pasta",
         category: "food",
-        title: "パスタを食べた",
+        title: "パスタ",
         date: "",
         isUnlocked: false,
         icon: "🍝"
@@ -162,7 +162,7 @@ export const achievementsData = [
     {
         id: "baby-ramen",
         category: "food",
-        title: "ラーメンを食べた",
+        title: "ラーメン",
         date: "",
         isUnlocked: false,
         icon: "🍜"
@@ -170,7 +170,7 @@ export const achievementsData = [
     {
         id: "baby-carrot",
         category: "food",
-        title: "にんじんを食べた",
+        title: "にんじん",
         date: "2026-02-17",
         isUnlocked: true,
         icon: "🥕"
@@ -178,7 +178,7 @@ export const achievementsData = [
     {
         id: "baby-pumpkin",
         category: "food",
-        title: "かぼちゃを食べた",
+        title: "かぼちゃ",
         date: "2026-02-22",
         isUnlocked: true,
         icon: "🎃"
@@ -186,7 +186,7 @@ export const achievementsData = [
     {
         id: "baby-tomato",
         category: "food",
-        title: "トマトを食べた",
+        title: "トマト",
         date: "2026-03-03",
         isUnlocked: true,
         icon: "🍅"
@@ -194,7 +194,7 @@ export const achievementsData = [
     {
         id: "baby-potato",
         category: "food",
-        title: "じゃがいもを食べた",
+        title: "じゃがいも",
         date: "2026-03-10",
         isUnlocked: true,
         icon: "🥔"
@@ -202,7 +202,7 @@ export const achievementsData = [
     {
         id: "baby-onion",
         category: "food",
-        title: "玉ねぎを食べた",
+        title: "玉ねぎ",
         date: "2026-03-23",
         isUnlocked: true,
         icon: "🧅"
@@ -210,7 +210,7 @@ export const achievementsData = [
     {
         id: "baby-sweet-potato",
         category: "food",
-        title: "さつまいもを食べた",
+        title: "さつまいも",
         date: "2026-04-02",
         isUnlocked: true,
         icon: "🍠"
@@ -218,7 +218,7 @@ export const achievementsData = [
     {
         id: "baby-broccoli",
         category: "food",
-        title: "ブロッコリーを食べた",
+        title: "ブロッコリー",
         date: "",
         isUnlocked: false,
         icon: "🥦"
@@ -226,7 +226,7 @@ export const achievementsData = [
     {
         id: "baby-spinach",
         category: "food",
-        title: "ほうれん草を食べた",
+        title: "ほうれん草",
         date: "2026-04-09",
         isUnlocked: true,
         icon: "🥬"
@@ -234,7 +234,7 @@ export const achievementsData = [
     {
         id: "baby-corn",
         category: "food",
-        title: "とうもろこしを食べた",
+        title: "とうもろこし",
         date: "2026-03-27",
         isUnlocked: true,
         icon: "🌽"
@@ -242,7 +242,7 @@ export const achievementsData = [
     {
         id: "baby-egg",
         category: "food",
-        title: "全卵を食べた",
+        title: "全卵",
         date: "2026-03-17",
         isUnlocked: true,
         icon: "🍳"
@@ -250,7 +250,7 @@ export const achievementsData = [
     {
         id: "baby-white-fish",
         category: "food",
-        title: "白身魚を食べた",
+        title: "白身魚",
         date: "2026-04-18",
         isUnlocked: true,
         icon: "🐟"
@@ -258,15 +258,23 @@ export const achievementsData = [
     {
         id: "baby-red-fish",
         category: "food",
-        title: "赤身魚を食べた",
+        title: "赤身魚",
         date: "",
         isUnlocked: false,
         icon: "🐟"
     },
     {
+        id: "baby-chicken",
+        category: "food",
+        title: "ささみ",
+        date: "2026-05-12",
+        isUnlocked: true,
+        icon: "🐥"
+    },
+    {
         id: "baby-tofu",
         category: "food",
-        title: "豆腐を食べた",
+        title: "豆腐",
         date: "2026-03-14",
         isUnlocked: true,
         icon: "🥣"
@@ -274,7 +282,7 @@ export const achievementsData = [
     {
         id: "baby-natto",
         category: "food",
-        title: "納豆を食べた",
+        title: "納豆",
         date: "2026-04-12",
         isUnlocked: true,
         icon: "🥣"
@@ -282,7 +290,7 @@ export const achievementsData = [
     {
         id: "baby-apple",
         category: "food",
-        title: "りんごを食べた",
+        title: "りんご",
         date: "2026-03-07",
         isUnlocked: true,
         icon: "🍎"
@@ -290,7 +298,7 @@ export const achievementsData = [
     {
         id: "baby-grape",
         category: "food",
-        title: "ぶどうを食べた",
+        title: "ぶどう",
         date: "",
         isUnlocked: false,
         icon: "🍇"
@@ -298,7 +306,7 @@ export const achievementsData = [
     {
         id: "baby-banana",
         category: "food",
-        title: "バナナを食べた",
+        title: "バナナ",
         date: "2026-04-06",
         isUnlocked: true,
         icon: "🍌"
@@ -306,7 +314,7 @@ export const achievementsData = [
     {
         id: "baby-strawberry",
         category: "food",
-        title: "いちごを食べた",
+        title: "いちご",
         date: "",
         isUnlocked: false,
         icon: "🍓"

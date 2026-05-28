@@ -149,10 +149,52 @@ export const collectionsData = [
         title: "アニマルボウリング",
         tags: ["おもちゃ"]
     },
-    // { 
-    //     id: 0, 
-    //     src: "", 
-    //     title: "", 
-    //     tags: [""] 
-    // },
+    {
+        id: 26,
+        src: "https://www.fukuinkan.co.jp/img/goods_img/01-8365_01.jpg",
+        title: "スプーンちゃん",
+        tags: ["絵本"]
+    },
+    {
+        id: 27,
+        src: "https://www.fukuinkan.co.jp/img/goods_img/09-0373_01.jpg",
+        title: "くだものくださいな",
+        tags: ["絵本"]
+    },
+    {
+        id: 28,
+        src: "https://www.fukuinkan.co.jp/img/goods_img/09-0374_01.jpg",
+        title: "ついたよついたよ",
+        tags: ["絵本"]
+    },
+    {
+        id: 29,
+        src: "https://www.fukuinkan.co.jp/img/goods_img/01-2480_01.jpg",
+        title: "かんかんかん",
+        tags: ["絵本"]
+    },
+    {
+        id: 30,
+        src: "https://www.fukuinkan.co.jp/img/goods_img/09-0375_01.jpg",
+        title: "あたまはてんてんてん",
+        tags: ["絵本"]
+    },
+    {
+        id: 31,
+        src: "https://www.fukuinkan.co.jp/img/goods_img/01-8253_01.jpg",
+        title: "ぺんぎんたいそう",
+        tags: ["絵本"]
+    },
+    {
+        id: 32,
+        src: "https://www.nagaokashoten.co.jp/book_images/thumbnail/9784522442487.jpg",
+        title: "はじめてえほん　いろ",
+        tags: ["絵本"]
+    },
+    {
+        id: 33,
+        src: "https://www.nagaokashoten.co.jp/book_images/thumbnail/9784522442494.jpg",
+        title: "はじめてえほん　くだもの・やさい",
+        tags: ["絵本"]
+    },
 ];

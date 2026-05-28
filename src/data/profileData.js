@@ -2,8 +2,8 @@ export const profileData = {
     name: "周 (あまね/Amane)",
     birthDate: "2025-09-03",
     currentStats: {
-        height: { value: "67.2cm", date: "2026-04-15" },
-        weight: { value: "6.7kg", date: "2026-04-15" },
+        height: { value: "68.2cm", date: "2026-05-07" },
+        weight: { value: "6.8kg", date: "2026-05-07" },
     },
     likes: ["しましまぐるぐる", "男前豆腐"],
     dislikes: ["トマト🍅", "ほうれん草🥬", "ペットボトルを潰す音", "鼻吸い", "顔の保湿"],
