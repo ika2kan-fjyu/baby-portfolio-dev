@@ -19,8 +19,8 @@ export const achievementsData = [
         id: "weight-7kg",
         category: "body",
         title: "体重が7kgを超えた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-06-08",
+        isUnlocked: true,
         icon: "👶"
     },
     {

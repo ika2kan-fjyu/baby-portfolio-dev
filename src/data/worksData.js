@@ -1,16 +1,16 @@
-// import work1 from '/works/work1.png';
+import work1 from '/works/0age/20260430.jpg';
 // import work2 from '/works/work2.png';
 // import work3 from '/works/work3.png';
 // import work4 from '/works/work4.png';
 
 export const worksData = [
-    // { 
-    //     id: 1, 
-    //     src: work1, 
-    //     title: "初めての殴り書き", 
-    //     age: 0, 
-    //     date: "2024-12-10" 
-    // },
+    { 
+        id: 1, 
+        src: work1, 
+        title: "鯉のぼり", 
+        age: 0,
+        date: "2026-04-30" 
+    },
     // { 
     //     id: 2, 
     //     src: work2, 

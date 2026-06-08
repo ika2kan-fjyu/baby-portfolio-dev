@@ -1,5 +1,5 @@
 export const updatesData = [
-    { date: "2026-05-28", message: "Memoriesに7件追加しました！" },
-    { date: "2026-05-28", message: "Achivementsを1件更新しました！" },
-    { date: "2026-05-28", message: "Collectionsに8件追加しました！" }
+    { date: "2026-06-08", message: "Worksに1件追加しました！" },
+    { date: "2026-06-08", message: "身長・体重を更新しました！" },
+    { date: "2026-06-08", message: "1件のAchievementsを解除しました！" }
 ];
