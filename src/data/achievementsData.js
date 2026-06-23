@@ -51,8 +51,8 @@ export const achievementsData = [
         id: "first-sit",
         category: "body",
         title: "お座りできた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-06-14",
+        isUnlocked: true,
         icon: "🧎‍♂️"
     },
     {
@@ -90,7 +90,7 @@ export const achievementsData = [
     {
         id: "milk-160ml",
         category: "food",
-        title: "ミルクを一度に160ml飲んだ",
+        title: "ミルクを一度に160ml",
         date: "2025-11-10",
         isUnlocked: true,
         icon: "🍼"
@@ -98,7 +98,7 @@ export const achievementsData = [
     {
         id: "milk-240ml",
         category: "food",
-        title: "ミルクを一度に240ml飲んだ",
+        title: "ミルクを一度に240ml",
         date: "2026-03-16",
         isUnlocked: true,
         icon: "🍼"
@@ -256,6 +256,14 @@ export const achievementsData = [
         icon: "🐟"
     },
     {
+        id: "baby-shirasu",
+        category: "food",
+        title: "しらす",
+        date: "2026-06-15",
+        isUnlocked: true,
+        icon: "🐟"
+    },
+    {
         id: "baby-red-fish",
         category: "food",
         title: "赤身魚",
@@ -286,6 +294,14 @@ export const achievementsData = [
         date: "2026-04-12",
         isUnlocked: true,
         icon: "🥣"
+    },
+    {
+        id: "baby-peanuts",
+        category: "food",
+        title: "ピーナッツ",
+        date: "2026-05-01",
+        isUnlocked: true,
+        icon: "🥜"
     },
     {
         id: "baby-apple",
@@ -342,6 +358,14 @@ export const achievementsData = [
         date: "2025-12-21",
         isUnlocked: true,
         icon: "🐟"
+    },
+    {
+        id: "first-zuribai",
+        category: "activity",
+        title: "初めて前に進んだ",
+        date: "2026-06-04",
+        isUnlocked: true,
+        icon: "🚶‍♂️"
     },
     {
         id: "first-walk",
