@@ -155,8 +155,8 @@ export const achievementsData = [
         id: "baby-pasta",
         category: "food",
         title: "パスタ",
-        date: "",
-        isUnlocked: false,
+        date: "2026-06-27",
+        isUnlocked: true,
         icon: "🍝"
     },
     {
@@ -240,6 +240,30 @@ export const achievementsData = [
         icon: "🌽"
     },
     {
+        id: "baby-gobo",
+        category: "food",
+        title: "ごぼう",
+        date: "2026-07-01",
+        isUnlocked: true,
+        icon: "🥗"
+    },
+    {
+        id: "baby-shimeji",
+        category: "food",
+        title: "ぶなしめじ",
+        date: "2026-07-01",
+        isUnlocked: true,
+        icon: "🍄"
+    },
+    {
+        id: "baby-wakame",
+        category: "food",
+        title: "わかめ",
+        date: "2026-07-04",
+        isUnlocked: true,
+        icon: "🥬"
+    },
+    {
         id: "baby-egg",
         category: "food",
         title: "全卵",
@@ -294,6 +318,22 @@ export const achievementsData = [
         date: "2026-04-12",
         isUnlocked: true,
         icon: "🥣"
+    },
+    {
+        id: "baby-milk-heated",
+        category: "food",
+        title: "牛乳（加熱）",
+        date: "2026-06-27",
+        isUnlocked: true,
+        icon: "🥛"
+    },
+    {
+        id: "baby-milk",
+        category: "food",
+        title: "牛乳",
+        date: "",
+        isUnlocked: false,
+        icon: "🥛"
     },
     {
         id: "baby-peanuts",
