@@ -245,6 +245,10 @@ export const collectionsData = [
         title: "モンポケ ピカチュウのぺちゃ",
         tags: ["おもちゃ"]
     },
+    {
+        id: 42,
+        src: "https://eduteshop.itembox.cloud/product/000/000000000031/000000000031-17.jpg?size=l&w=NzY1&t=20251022161208",
+        title: "Edute SOUNDブロックスLarge",
+        tags: ["おもちゃ"]
+    }
 ];
-
-// ころころねこちゃんやつ、

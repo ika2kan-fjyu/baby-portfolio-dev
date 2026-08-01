@@ -67,8 +67,8 @@ export const achievementsData = [
         id: "first-support-standing",
         category: "body",
         title: "つかまり立ちできた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-07-26",
+        isUnlocked: true,
         icon: "👣"
     },
     {
@@ -134,6 +134,14 @@ export const achievementsData = [
         date: "",
         isUnlocked: false,
         icon: "🍚"
+    },
+    {
+        id: "baby-bread",
+        category: "food",
+        title: "食パン",
+        date: "2026-07-28",
+        isUnlocked: true,
+        icon: "🍞"
     },
     {
         id: "baby-udon",
@@ -304,6 +312,22 @@ export const achievementsData = [
         icon: "🐥"
     },
     {
+        id: "baby-chicken-rebar",
+        category: "food",
+        title: "鶏レバー",
+        date: "2026-07-13",
+        isUnlocked: true,
+        icon: "🐓"
+    },
+    {
+        id: "baby-pork-mince",
+        category: "food",
+        title: "豚ひき肉",
+        date: "2026-07-27",
+        isUnlocked: true,
+        icon: "🐖"
+    },
+    {
         id: "baby-tofu",
         category: "food",
         title: "豆腐",
@@ -422,6 +446,14 @@ export const achievementsData = [
         date: "",
         isUnlocked: false,
         icon: "🏃‍♀️"
+    },
+    {
+        id: "first-eat-with-hands",
+        category: "activity",
+        title: "手づかみ食べをした",
+        date: "2026-07-28",
+        isUnlocked: true,
+        icon: "🖐️"
     },
     {
         id: "first-spoon",

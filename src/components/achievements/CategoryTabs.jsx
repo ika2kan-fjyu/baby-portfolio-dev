@@ -3,10 +3,10 @@ import { cn } from '../../lib/utils';
 import { MessageCircleIcon, PersonStanding, Gamepad, Soup } from 'lucide-react';
 
 const categories = [
-    { id: 'body', label: 'Body', icon: PersonStanding },
-    { id: 'language', label: 'Language', icon: MessageCircleIcon },
     { id: 'food', label: 'Food', icon: Soup },
+    { id: 'body', label: 'Body', icon: PersonStanding },
     { id: 'activity', label: 'Activity', icon: Gamepad },
+    { id: 'language', label: 'Language', icon: MessageCircleIcon },
 ];
 
 export function CategoryTabs({ activeCategory, onSelect }) {
