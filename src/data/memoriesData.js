@@ -1,5 +1,37 @@
 export const memoriesData = [
     {
+        id: 20260081801,
+        date: "2026-08-18",
+        title: "大阪旅行最終日",
+        description: "万博記念公園にきたよ！太陽の塔でっかい！",
+        tags: ["旅行", "太陽の塔", "国立民族学博物館"],
+        image: "/memories/20260818.jpg"
+    },
+    {
+        id: 20260081701,
+        date: "2026-08-17",
+        title: "大阪旅行2日目",
+        description: "海遊館にきたよ！水族館も初めて！",
+        tags: ["旅行", "水族館", "オムライス", "北極星"],
+        image: "/memories/20260817.jpg"
+    },
+    {
+        id: 20260081601,
+        date: "2026-08-16",
+        title: "大阪旅行1日目",
+        description: "初めて新幹線に乗って大阪にきたよ！",
+        tags: ["旅行", "たこ焼き", "お好み焼き", "あじくらや"],
+        image: "/memories/20260816.jpg"
+    },
+    {
+        id: 20260080301,
+        date: "2026-08-03",
+        title: "11ヶ月記念日",
+        description: "生まれてから11ヶ月が経ったよ！",
+        tags: ["記念日"],
+        image: "/memories/20260803.jpeg"
+    },
+    {
         id: 20260071801,
         date: "2026-07-18",
         title: "初プール遊び",
@@ -21,7 +53,7 @@ export const memoriesData = [
         title: "10ヶ月記念日",
         description: "生まれてから10ヶ月が経ったよ！すっかり座れるようになりました！",
         tags: ["記念日"],
-        image: ""
+        image: "/memories/20260703.jpeg"
     },
     {
         id: 20260062502,

@@ -5,7 +5,7 @@ import { achievementsData } from '../../data/achievementsData';
 import { Trophy } from 'lucide-react';
 
 export function AchievementsPage() {
-    const [activeCategory, setActiveCategory] = useState('body');
+    const [activeCategory, setActiveCategory] = useState('food');
 
     const filteredAchievements = achievementsData.filter(
         item => item.category === activeCategory

@@ -72,12 +72,20 @@ export const achievementsData = [
         icon: "👣"
     },
     {
+        id: "first-solo-standing",
+        category: "body",
+        title: "自力でつかまり立ちできた",
+        date: "2026-08-20",
+        isUnlocked: true,
+        icon: "🧍"
+    },
+    {
         id: "first-standing",
         category: "body",
         title: "立てた",
         date: "",
         isUnlocked: false,
-        icon: "👣"
+        icon: "🧍"
     },
     {
         id: "first-soft-talk",
@@ -147,8 +155,8 @@ export const achievementsData = [
         id: "baby-udon",
         category: "food",
         title: "うどん",
-        date: "",
-        isUnlocked: false,
+        date: "0206-07-18",
+        isUnlocked: true,
         icon: "🍲"
     },
     {
@@ -326,6 +334,14 @@ export const achievementsData = [
         date: "2026-07-27",
         isUnlocked: true,
         icon: "🐖"
+    },
+    {
+        id: "baby-beef-mince",
+        category: "food",
+        title: "牛ひき肉",
+        date: "2026-08-17",
+        isUnlocked: true,
+        icon: "🐂"
     },
     {
         id: "baby-tofu",

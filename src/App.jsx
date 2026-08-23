@@ -7,7 +7,7 @@ import { IdentityCard } from './components/profile/IdentityCard';
 import { UpdatesCard } from './components/profile/UpdatesCard';
 import { profileData } from './data/profileData';
 import { updatesData } from './data/updatesData';
-import profileImage from '/profile/9month.JPEG';
+import profileImage from '/profile/11month.JPEG';
 
 const Profile = () => {
   const birthDate = new Date(profileData.birthDate);
