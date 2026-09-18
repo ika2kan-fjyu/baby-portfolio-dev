@@ -7,7 +7,8 @@ import { AgeFilter } from '../works/AgeFilter';
 import { LibraryBig } from 'lucide-react';
 
 export const MemoriesPage = () => {
-    const [activeAge, setActiveAge] = useState(0);
+    // タブの初期表示の年齢を制御
+    const [activeAge, setActiveAge] = useState(1);
 
     const getAge = (dateString) => {
         const birthDate = new Date(profileData.birthDate);
