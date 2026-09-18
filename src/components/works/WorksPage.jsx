@@ -5,7 +5,8 @@ import { worksData } from '../../data/worksData';
 import { Palette } from 'lucide-react';
 
 export function WorksPage() {
-    const [activeAge, setActiveAge] = useState(0);
+    // タブの初期表示の年齢を制御
+    const [activeAge, setActiveAge] = useState(1);
 
     const filteredWorks = worksData.filter(work => work.age === activeAge);
 
