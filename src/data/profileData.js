@@ -2,13 +2,13 @@ export const profileData = {
     name: "周 (あまね/Amane)",
     birthDate: "2025-09-03",
     currentStats: {
-        height: { value: "71.8cm", date: "2026-08-04" },
-        weight: { value: "7.4kg", date: "2026-08-04" },
+        height: { value: "72.0cm", date: "2026-09-03" },
+        weight: { value: "7.9kg", date: "2026-09-03" },
     },
-    likes: ["おこめぼー", "男前豆腐"],
+    likes: ["おこめぼー", "ブランケット"],
     dislikes: ["ペットボトルを潰す音", "鼻吸い", "顔の保湿"],
     clothesSize: "70 ~ 80cm",
-    shoeSize: "??? cm",
-    personality: "自力で座った状態から柵に掴まって立つことができるようになった"
+    shoeSize: "11.5 cm",
+    personality: "伝い歩きができるようになり、柵の留め具を勝手に外せるようになってしまった。"
 };
 

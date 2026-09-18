@@ -59,8 +59,8 @@ export const achievementsData = [
         id: "first-haihai",
         category: "body",
         title: "ハイハイできた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-08-23",
+        isUnlocked: true,
         icon: "👣"
     },
     {
@@ -235,8 +235,8 @@ export const achievementsData = [
         id: "baby-broccoli",
         category: "food",
         title: "ブロッコリー",
-        date: "",
-        isUnlocked: false,
+        date: "2026-08-09",
+        isUnlocked: true,
         icon: "🥦"
     },
     {
@@ -246,6 +246,30 @@ export const achievementsData = [
         date: "2026-04-09",
         isUnlocked: true,
         icon: "🥬"
+    },
+    {
+        id: "baby-komatsuna",
+        category: "food",
+        title: "小松菜",
+        date: "2026-08-09",
+        isUnlocked: true,
+        icon: "🥬"
+    },
+    {
+        id: "baby-cabbage",
+        category: "food",
+        title: "キャベツ",
+        date: "2026-09-07",
+        isUnlocked: true,
+        icon: "🥬"
+    },
+    {
+        id: "baby-piman",
+        category: "food",
+        title: "ピーマン",
+        date: "2026-08-25",
+        isUnlocked: true,
+        icon: "🫑"
     },
     {
         id: "baby-corn",
@@ -384,6 +408,22 @@ export const achievementsData = [
         icon: "🥜"
     },
     {
+        id: "baby-olive-oil",
+        category: "food",
+        title: "オリーブオイル",
+        date: "2026-09-13",
+        isUnlocked: true,
+        icon: "🫒"
+    },
+    {
+        id: "baby-sesami-oil",
+        category: "food",
+        title: "ごま油",
+        date: "2026-09-13",
+        isUnlocked: true,
+        icon: "🧈"
+    },
+    {
         id: "baby-apple",
         category: "food",
         title: "りんご",
@@ -395,8 +435,8 @@ export const achievementsData = [
         id: "baby-grape",
         category: "food",
         title: "ぶどう",
-        date: "",
-        isUnlocked: false,
+        date: "2026-09-01",
+        isUnlocked: true,
         icon: "🍇"
     },
     {

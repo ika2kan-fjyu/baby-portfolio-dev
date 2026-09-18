@@ -1,5 +1,29 @@
 export const memoriesData = [
     {
+        id: 20260090901,
+        date: "2026-09-09",
+        title: "初お買い物カートに乗車",
+        description: "三和でお買い物カートに乗ってショッピング！",
+        tags: ["お出かけ"],
+        image: "/memories/20260909.jpg"
+    },
+    {
+        id: 20260090501,
+        date: "2026-09-05",
+        title: "スマッシュケーキでお祝い🍰",
+        description: "シャインマスカットを使ったスマッシュケーキをお母さんが手作りしてくれたよ！上手に食べられたね🙌",
+        tags: ["誕生日"],
+        image: "/memories/20260905.jpeg"
+    },
+    {
+        id: 20260090301,
+        date: "2026-09-03",
+        title: "1歳の誕生日！",
+        description: "ついに1歳になったよ！",
+        tags: ["誕生日"],
+        image: "/memories/20260903.jpeg"
+    },
+    {
         id: 20260081801,
         date: "2026-08-18",
         title: "大阪旅行最終日",
