@@ -24,6 +24,14 @@ export const achievementsData = [
         icon: "👶"
     },
     {
+        id: "weight-10kg",
+        category: "body",
+        title: "体重が10kgを超えた",
+        date: "",
+        isUnlocked: false,
+        icon: "👶"
+    },
+    {
         id: "first-neck",
         category: "body",
         title: "首がすわった",
@@ -139,8 +147,8 @@ export const achievementsData = [
         id: "baby-rice",
         category: "food",
         title: "ごはん",
-        date: "",
-        isUnlocked: false,
+        date: "2026-09-18",
+        isUnlocked: true,
         icon: "🍚"
     },
     {
@@ -165,6 +173,14 @@ export const achievementsData = [
         title: "そうめん",
         date: "2026-04-12",
         isUnlocked: true,
+        icon: "🍲"
+    },
+    {
+        id: "baby-soba",
+        category: "food",
+        title: "そば",
+        date: "",
+        isUnlocked: false,
         icon: "🍲"
     },
     {
@@ -491,8 +507,8 @@ export const achievementsData = [
         id: "first-walk",
         category: "activity",
         title: "初めて歩いた",
-        date: "",
-        isUnlocked: false,
+        date: "2026-??-??",
+        isUnlocked: true,
         icon: "🚶‍♂️"
     },
     {
